@@ -8805,3 +8805,2311 @@ Received Import Request.
 Start importing Assets/Sprites/ratoncito/Idle/ratoncito.controller using Guid(53a077f69dc99e546b8948c3540591c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b42dfe7f589479f862e71d39a6484b6') in 0.024535 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 424.192383 seconds.
+  path: Assets/finish.cs
+  artifactKey: Guid(15292931bae704e44879e7e13518ec2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/finish.cs using Guid(15292931bae704e44879e7e13518ec2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8a26c8e975aa99387080f373008b9f5f') in 0.208260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_45.asset
+  artifactKey: Guid(c056da5163ed48e42bbd1142f9dfae33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_45.asset using Guid(c056da5163ed48e42bbd1142f9dfae33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '55ab575b473cd93b82b3e15353cf2a4f') in 0.069258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Elements/Mossy - TileSet.png
+  artifactKey: Guid(609746181490d234598715dfff2421de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Elements/Mossy - TileSet.png using Guid(609746181490d234598715dfff2421de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '086c3b0226f180ba23aa2b00001e5581') in 0.224319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_56.asset
+  artifactKey: Guid(70e4deed68b874d43b5e5f8c81126bee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_56.asset using Guid(70e4deed68b874d43b5e5f8c81126bee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd679ba31a4a113a9997a9f0d6c431428') in 0.022605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_37.asset
+  artifactKey: Guid(6c4a5aaf84197fc4babf2c7182e11311) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_37.asset using Guid(6c4a5aaf84197fc4babf2c7182e11311) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5620871cc0e8128e81a384aba5e0417e') in 0.018149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TileMap/oak_woods_tileset_1.asset
+  artifactKey: Guid(9148c0c644bfbdb4a89b99f6c6c8eb55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_1.asset using Guid(9148c0c644bfbdb4a89b99f6c6c8eb55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b9105b14b84daf3732dbb04fb3bc6581') in 0.024397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_29.asset
+  artifactKey: Guid(6adc314c73d9764499a2d859baf0adcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_29.asset using Guid(6adc314c73d9764499a2d859baf0adcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '63916cb393e9c8420d43e36b8a11677e') in 0.017876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_57.asset
+  artifactKey: Guid(87af660d95745ec4b9669f9220c134b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_57.asset using Guid(87af660d95745ec4b9669f9220c134b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a91234bf3d7fa40142008d3beb009a67') in 0.018045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Elements/Mossy - BackgroundDecoration.png
+  artifactKey: Guid(8a5a90e67346b1a438c512974425bf1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Elements/Mossy - BackgroundDecoration.png using Guid(8a5a90e67346b1a438c512974425bf1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '82e9505415698cf59c11c17fe769bbd1') in 0.044234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_58.asset
+  artifactKey: Guid(1b8bc25659d55ce4c86302f3d344d3c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_58.asset using Guid(1b8bc25659d55ce4c86302f3d344d3c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4eded9ab5666a18f11c2ce35ba2fdd82') in 0.017856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Animaciones/heart.controller
+  artifactKey: Guid(a378acf510eb87146929c40e6f07ba25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animaciones/heart.controller using Guid(a378acf510eb87146929c40e6f07ba25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4182c3b760757ab86be2d24fc33c7877') in 0.013298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_46.asset
+  artifactKey: Guid(92b2b3cd68a26be4fb54aaa3fbebde3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_46.asset using Guid(92b2b3cd68a26be4fb54aaa3fbebde3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '091eb70a938b791e94f79c79f12b9df3') in 0.016427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_18.asset
+  artifactKey: Guid(1d17bbe78df5b4548beabf757ba94865) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_18.asset using Guid(1d17bbe78df5b4548beabf757ba94865) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8575772279836cf4ea38348612e5d8d8') in 0.020561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_69.asset
+  artifactKey: Guid(62197a9407f7e1045a19d5660aba27a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_69.asset using Guid(62197a9407f7e1045a19d5660aba27a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a22b0d2533a6eb8d2b9c406b2fbe399b') in 0.036717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_32.asset
+  artifactKey: Guid(c9ba68f291a24d542a8c48ec37691823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_32.asset using Guid(c9ba68f291a24d542a8c48ec37691823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '919c429c75d2e849015e63d6b1262455') in 0.110942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_6.asset
+  artifactKey: Guid(bfd9e687f65fad24d802874eba166b37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_6.asset using Guid(bfd9e687f65fad24d802874eba166b37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '58e1ff80b57837fc440d684c70dcc013') in 0.032678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_22.asset
+  artifactKey: Guid(576f59589bf1c0f4096a2dfe335e7ad5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_22.asset using Guid(576f59589bf1c0f4096a2dfe335e7ad5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'df4aa0a270d1c8cba1e720c9d169b4d9') in 0.033973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_15.asset
+  artifactKey: Guid(a45b68984f05b37448eae8fc680afbdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_15.asset using Guid(a45b68984f05b37448eae8fc680afbdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e449cc91329cfd9e5988b62f4f8074a2') in 0.034613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_4.asset
+  artifactKey: Guid(fe5601b1f54ddee44825ba8a0a2606c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_4.asset using Guid(fe5601b1f54ddee44825ba8a0a2606c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2332eb522ba171a771561b964163a316') in 0.023491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_65.asset
+  artifactKey: Guid(660ebcf43ba25484dab250210ecae69d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_65.asset using Guid(660ebcf43ba25484dab250210ecae69d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eff77fe2c0a5319ae62f22b9b7b6d1ae') in 0.023751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_30.asset
+  artifactKey: Guid(2051d81ff4693654a97f2605a07289ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_30.asset using Guid(2051d81ff4693654a97f2605a07289ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4e9ae26b6ea278f1e4af646aa5d6ebb0') in 0.027169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TileMap/oak_woods_tileset_5.asset
+  artifactKey: Guid(fc7b36cb32c3a3c4fa21f880a74d5b4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_5.asset using Guid(fc7b36cb32c3a3c4fa21f880a74d5b4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cc8a33d569067f6b71b847f73b98ca21') in 0.033255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TileMap/oak_woods_tileset_14.asset
+  artifactKey: Guid(d1c829a5f3bbcd54996df58cd7347c0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_14.asset using Guid(d1c829a5f3bbcd54996df58cd7347c0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '77969adc397cc37c93e13c05703a68bd') in 0.028614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/TileMap/oak_woods_tileset_3.asset
+  artifactKey: Guid(ba70390c0ebfae945964dab6c220ce0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_3.asset using Guid(ba70390c0ebfae945964dab6c220ce0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'afc20d813677930b3da0fbbff7d32eb8') in 0.027008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TileMap/oak_woods_tileset_20.asset
+  artifactKey: Guid(c9bd7476698cc0144b0eb3bcaad4a0e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_20.asset using Guid(c9bd7476698cc0144b0eb3bcaad4a0e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a89f04f9ad6823861be4c4820f8bd8e5') in 0.031219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_23.asset
+  artifactKey: Guid(c0395b858df724f46a89c6ac32d7b3c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_23.asset using Guid(c0395b858df724f46a89c6ac32d7b3c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '24c8c174e44ccd2d30e25991b387eedd') in 0.068192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_47.asset
+  artifactKey: Guid(0eb30dbb595535b4293fac5ff07b6dc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_47.asset using Guid(0eb30dbb595535b4293fac5ff07b6dc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '77cdd8dcc486cb017936d872337c8bbf') in 0.022043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TileMap/oak_woods_tileset_2.asset
+  artifactKey: Guid(e57a3e2bde34b6e4f80f1a38ccc945b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_2.asset using Guid(e57a3e2bde34b6e4f80f1a38ccc945b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4cab2cd3cda2444a7170015ea0aa60b9') in 0.036290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_0.asset
+  artifactKey: Guid(a1c2a7cc984567546beb033eca49b3b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_0.asset using Guid(a1c2a7cc984567546beb033eca49b3b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '544437fdc638a48cd2b31a208d14c0b8') in 0.124561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_52.asset
+  artifactKey: Guid(8b30c66c510f9ae4fadeffde6bc7c2b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_52.asset using Guid(8b30c66c510f9ae4fadeffde6bc7c2b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5e456a3a02bc1f3e4ff49d9e01e4c0a1') in 0.033361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_53.asset
+  artifactKey: Guid(c1fcd2a54ae793a4f80415022c23cbf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_53.asset using Guid(c1fcd2a54ae793a4f80415022c23cbf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '590cbad7a852192a976ab5db8d2b31c9') in 0.022859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_62.asset
+  artifactKey: Guid(923d9e36da8df85498c4ed48b6889673) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_62.asset using Guid(923d9e36da8df85498c4ed48b6889673) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ee998df05b0b9ec8c54be0834c7a6a1') in 0.041814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/corazon/corazon4.png
+  artifactKey: Guid(379ecb88004bb4e4285a7cc7c8c80941) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/corazon/corazon4.png using Guid(379ecb88004bb4e4285a7cc7c8c80941) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8cba986f9ce3ceaea0bac392df29ef76') in 0.057011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/corazon/corazon3.png
+  artifactKey: Guid(e0912c85f0c7f2c49b99c9be7eb62060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/corazon/corazon3.png using Guid(e0912c85f0c7f2c49b99c9be7eb62060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '93e3e7f13b7c9c3472f016e74a591839') in 0.052123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/corazon/corazon1.controller
+  artifactKey: Guid(bfb3e7fe5aabaf44d92e3792842e3784) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/corazon/corazon1.controller using Guid(bfb3e7fe5aabaf44d92e3792842e3784) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c10b0e3e20ee1c5d380428b830753b2b') in 0.018959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TileMap/SimpleTiles.prefab
+  artifactKey: Guid(3dfeca057c83b974d9deb2849b0fe1f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/SimpleTiles.prefab using Guid(3dfeca057c83b974d9deb2849b0fe1f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '95867e2d3f7ae363d40c299d5c1176be') in 0.048717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Document.pdf
+  artifactKey: Guid(1f4a6a7033cddfb48851061cdd7b2ce5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Document.pdf using Guid(1f4a6a7033cddfb48851061cdd7b2ce5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fdddbb7671484d7e0b6c31e0545c3ce2') in 0.014835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_5.asset
+  artifactKey: Guid(ecd2f4e2218f68440b336bcb4aa63f54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_5.asset using Guid(ecd2f4e2218f68440b336bcb4aa63f54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f9514fbe34eccee322d84aad68121c03') in 0.024719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_61.asset
+  artifactKey: Guid(30bd33f860ad5cf46a2700707e761566) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_61.asset using Guid(30bd33f860ad5cf46a2700707e761566) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b6eceaf9bb58e5cfc153727edfe306f9') in 0.027468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_20.asset
+  artifactKey: Guid(b6ff44df3a6b4cf4fa0a2a6a4ae83a87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_20.asset using Guid(b6ff44df3a6b4cf4fa0a2a6a4ae83a87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '936b1ccf6f8a578799a235cca0d7c019') in 0.023170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TileMap/oak_woods_tileset_12.asset
+  artifactKey: Guid(787de13b3f86f9c459a92645a0be1aad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_12.asset using Guid(787de13b3f86f9c459a92645a0be1aad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5037c6ec778baa8f7ffd4332f6c2ca24') in 0.024154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_59.asset
+  artifactKey: Guid(1c438fd3bcaa06e4d91346df3cb518e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_59.asset using Guid(1c438fd3bcaa06e4d91346df3cb518e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '212d46b77fce6c975fc9034523f57355') in 0.023647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_17.asset
+  artifactKey: Guid(a5b96bf70ed04fb40b5d6ac08562027c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_17.asset using Guid(a5b96bf70ed04fb40b5d6ac08562027c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0129e15265ef6b16a0efc4f7b2a580b7') in 0.049230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002830 seconds.
+  path: Assets/Elements/rock_1.png
+  artifactKey: Guid(cd74656679b7cc34f8f07ef0a2115a0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Elements/rock_1.png using Guid(cd74656679b7cc34f8f07ef0a2115a0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8dd2f65a8f5df0b3076e58c36b650fd7') in 0.149493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Sprites/Effects/17_felspell_spritesheet.png
+  artifactKey: Guid(12d6e0c66bc1f61408183dcf1c002b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/17_felspell_spritesheet.png using Guid(12d6e0c66bc1f61408183dcf1c002b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34d88e968e5e00400a22b9832f65b0ee') in 0.069004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Sprites/Effects/15_loading_spritesheet.png
+  artifactKey: Guid(cbc07e627c6a88b47960903683bec772) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/15_loading_spritesheet.png using Guid(cbc07e627c6a88b47960903683bec772) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7d91bb9192a620a68e7d0a2cf786bcd') in 0.100423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/Effects/16_sunburn_spritesheet.png
+  artifactKey: Guid(1dca22cbdedb53c47a782fe8009e8421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/16_sunburn_spritesheet.png using Guid(1dca22cbdedb53c47a782fe8009e8421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '59ae6f17412073073c41f4391af92957') in 0.078007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/corazon/corazon5.png
+  artifactKey: Guid(d9e16ca8e8366ea4094c42805bad3fba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/corazon/corazon5.png using Guid(d9e16ca8e8366ea4094c42805bad3fba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8574bb716957ee82908ac66c6c11729d') in 0.067781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Effects/13_vortex_spritesheet.png
+  artifactKey: Guid(e52b108b56b55414f92e4c310e236546) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/13_vortex_spritesheet.png using Guid(e52b108b56b55414f92e4c310e236546) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '504611945ab56a2554f9bc1fb79bcec9') in 0.105655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_31.asset
+  artifactKey: Guid(c70a4e699f097ab49b01b488217bc843) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_31.asset using Guid(c70a4e699f097ab49b01b488217bc843) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b677cb00dae017465c75ea3961ba42ea') in 0.029801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_21.asset
+  artifactKey: Guid(97c5482fe928f864d88a25573ab332dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_21.asset using Guid(97c5482fe928f864d88a25573ab332dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ec4a5af6b742edad59a3d3a132826ae') in 0.019765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/Effects/2_magic8_spritesheet.png
+  artifactKey: Guid(6e943bd69539d5446bfe9fd9799c120a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/2_magic8_spritesheet.png using Guid(6e943bd69539d5446bfe9fd9799c120a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b570c64605f9fde44673faabbe182a3') in 0.041319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Effects/20_magicbubbles_spritesheet.png
+  artifactKey: Guid(c6862cb156db66744ab7d089f1a213ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/20_magicbubbles_spritesheet.png using Guid(c6862cb156db66744ab7d089f1a213ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7e1291c85fa1b1677ab157ea0045cb93') in 0.043771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Effects/6_flamelash_spritesheet.png
+  artifactKey: Guid(6b55fd4264c5c3a40a704325b4c427d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/6_flamelash_spritesheet.png using Guid(6b55fd4264c5c3a40a704325b4c427d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '10a683682e899964c80fde05f4178576') in 0.042022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Elements/Mossy - Decorations&Hazards.png
+  artifactKey: Guid(d7f7fda9df4513645877402f65212db1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Elements/Mossy - Decorations&Hazards.png using Guid(d7f7fda9df4513645877402f65212db1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '989a01d60cbc2dc979985eb715de17ff') in 0.050797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_24.asset
+  artifactKey: Guid(930dad8272392c6409a21f2f22aaaba1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_24.asset using Guid(930dad8272392c6409a21f2f22aaaba1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '42ea6ac2b19227a6ae14b65c14914e3d') in 0.016882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/backgrounds/background_layer_3.png
+  artifactKey: Guid(470d1357215172044ae5d922260d726e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/backgrounds/background_layer_3.png using Guid(470d1357215172044ae5d922260d726e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2f6d1505b62659b550bb0915368b8321') in 0.040586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Elements/grass_2.png
+  artifactKey: Guid(776da3ab141bb1042833bbe250cdd143) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Elements/grass_2.png using Guid(776da3ab141bb1042833bbe250cdd143) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00254f0cf5fb4c5971c800f49bf8ce18') in 0.041187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMap/oak_woods_tileset_10.asset
+  artifactKey: Guid(7b5d0e273b10d7440b615fd7e32524a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_10.asset using Guid(7b5d0e273b10d7440b615fd7e32524a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1ade1c2d38f05190af13d37028487e2') in 0.017667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/nature/Rectangular Palette.prefab
+  artifactKey: Guid(d44182237aafda6419885883ac47f306) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/Rectangular Palette.prefab using Guid(d44182237aafda6419885883ac47f306) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b4d3c5c299d3203ac5a14724a6544307') in 0.015838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_1.asset
+  artifactKey: Guid(8e126caf4b530ce4fadf68223cfe2529) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_1.asset using Guid(8e126caf4b530ce4fadf68223cfe2529) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2dd91503013f98a89b23b24ca29723f6') in 0.019984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_67.asset
+  artifactKey: Guid(eb92365776b38af4d872f3d95f3e04f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_67.asset using Guid(eb92365776b38af4d872f3d95f3e04f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f94224a8e8a336c1dccc4371b35f7a92') in 0.020940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_25.asset
+  artifactKey: Guid(99d28f3d3eb6a574b99dfafaa49bb355) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_25.asset using Guid(99d28f3d3eb6a574b99dfafaa49bb355) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1fff14b8de72a5ffb04c521eae546ab7') in 0.022145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TileMap/oak_woods_tileset_21.asset
+  artifactKey: Guid(3d95a344fe539c24399540c11f544f44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_21.asset using Guid(3d95a344fe539c24399540c11f544f44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '76bd8345e02195cd27a3b336efba0022') in 0.028017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Elements/rock_3.png
+  artifactKey: Guid(06f7328722093ac419eadb10c474c38b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Elements/rock_3.png using Guid(06f7328722093ac419eadb10c474c38b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '230beb1dd9804c6010323861a156fffa') in 0.042408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/Effects/12_nebula_spritesheet.png
+  artifactKey: Guid(68645f00a0ae8244d889c207481dc7a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/12_nebula_spritesheet.png using Guid(68645f00a0ae8244d889c207481dc7a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c5eb661b75bae09a4c41654155c3d96') in 0.044859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Effects/8_protectioncircle_spritesheet.png
+  artifactKey: Guid(a0088e5bb28e8ab4793b6311e5f5fd55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/8_protectioncircle_spritesheet.png using Guid(a0088e5bb28e8ab4793b6311e5f5fd55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '22f3241589e87caeee05584685bcfdb3') in 0.046124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Material/MT Rune Glow.mat
+  artifactKey: Guid(61b89fe75af132249ba5700ee0334a72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Material/MT Rune Glow.mat using Guid(61b89fe75af132249ba5700ee0334a72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3f39500e6a7d088adfb9cc3447a3f963') in 0.031717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_28.asset
+  artifactKey: Guid(e6846166451d82348a8e64b685b0d86f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_28.asset using Guid(e6846166451d82348a8e64b685b0d86f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ff76ccb73c9168adb7ad1cf5984ab90') in 0.018884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_35.asset
+  artifactKey: Guid(d7ea0e73c508ac8478a24ac687090a60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_35.asset using Guid(d7ea0e73c508ac8478a24ac687090a60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '26a3310f69854d8caf627b615f861232') in 0.019760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Sprites/Effects/3_bluefire_spritesheet.png
+  artifactKey: Guid(d4922edb6b7ce1c43a57a711dc663d81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/3_bluefire_spritesheet.png using Guid(d4922edb6b7ce1c43a57a711dc663d81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cbdd3a3bf6224c2dcbbf3225e35b9468') in 0.042537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/backgrounds/background_layer_2.png
+  artifactKey: Guid(748141a0e1f2fe044887f46e531caf94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/backgrounds/background_layer_2.png using Guid(748141a0e1f2fe044887f46e531caf94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0e2bd60acc2ef76dd1420346ef07b815') in 0.036457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Elements/Mossy - MossyHills.png
+  artifactKey: Guid(8ed5dd0a9618cf74baa0e6d42c28266f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Elements/Mossy - MossyHills.png using Guid(8ed5dd0a9618cf74baa0e6d42c28266f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ad744cb0ef2cb539843ab9ab01490d24') in 0.050746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Effects/11_fire_spritesheet.png
+  artifactKey: Guid(f3a67f4fb8b18c9438dc08229fe80f09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/11_fire_spritesheet.png using Guid(f3a67f4fb8b18c9438dc08229fe80f09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1483d159dc3e5984ce6d631c46d22b3d') in 0.059575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TileMap/oak_woods_tileset_17.asset
+  artifactKey: Guid(33b31540d46bb124eaf2511c2518318e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_17.asset using Guid(33b31540d46bb124eaf2511c2518318e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '93da9897b5ecd5b346e0c73933a65a69') in 0.093514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/TileMap/oak_woods_tileset_8.asset
+  artifactKey: Guid(14bba37664f5f7344afe0d2cd78c911d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_8.asset using Guid(14bba37664f5f7344afe0d2cd78c911d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6bd21700345c7c7874914047224c42e0') in 0.020341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_54.asset
+  artifactKey: Guid(2dc4e57e69a3b04479e409dca5735d0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_54.asset using Guid(2dc4e57e69a3b04479e409dca5735d0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b36b86634e2013b8525c0e6b4822be59') in 0.021490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_64.asset
+  artifactKey: Guid(baa29bca4c0eb364fbfe22148d29246d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_64.asset using Guid(baa29bca4c0eb364fbfe22148d29246d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a87270d5ca9cfb06aa09681c2a8f9dc6') in 0.017555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Material/MT Shadow.mat
+  artifactKey: Guid(6f3f1f0060a4d6a4980ea3283643fbdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Material/MT Shadow.mat using Guid(6f3f1f0060a4d6a4980ea3283643fbdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2d652e6b0c264e355e435499c67c6c8e') in 0.011482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_13.asset
+  artifactKey: Guid(0c668df7602a1df438aa62cc617a6eb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_13.asset using Guid(0c668df7602a1df438aa62cc617a6eb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c436748ae1a3420274548ef6de73c3e') in 0.016698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Script/LayerTrigger.cs
+  artifactKey: Guid(5f6d459c328bd694898a39e8ee677858) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Script/LayerTrigger.cs using Guid(5f6d459c328bd694898a39e8ee677858) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f5b27396fdde111665e4f00287128396') in 0.012615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Shadow Plant.png
+  artifactKey: Guid(8501e10b1eafde34586080ba342fdc0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Shadow Plant.png using Guid(8501e10b1eafde34586080ba342fdc0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1940a52e20e69949b9383b7da512e98') in 0.077597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Scene/SC Pixel Art Top Down - Basic.unity
+  artifactKey: Guid(86e89bd9e4a9c5245a015cf17e3c0aae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Scene/SC Pixel Art Top Down - Basic.unity using Guid(86e89bd9e4a9c5245a015cf17e3c0aae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '807af16abf7e860f90673b97ef1ff2d7') in 0.012528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Plant.png
+  artifactKey: Guid(c3a40e1c46727b94e959990527f8e7fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Plant.png using Guid(c3a40e1c46727b94e959990527f8e7fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '327250c49efba9692406acdd24c3c447') in 0.138064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Shadow.png
+  artifactKey: Guid(ed7554aeefd5da44a9fe1ee9b93afe77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Shadow.png using Guid(ed7554aeefd5da44a9fe1ee9b93afe77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '84ff26c48cb39bcde899bd7b45fdd5af') in 0.180268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Script/SpriteColorAnimation.cs
+  artifactKey: Guid(09ca5a4575c17ac4897d1f972b5f6b51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Script/SpriteColorAnimation.cs using Guid(09ca5a4575c17ac4897d1f972b5f6b51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '22f0b19603a6e3edcbce6ec6df6401f5') in 0.015413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Scene/SC All Props.unity
+  artifactKey: Guid(d9a9fd5182a4025429c97a869864056e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Scene/SC All Props.unity using Guid(d9a9fd5182a4025429c97a869864056e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a98a595da0ac6680599ccec97e7b5bf8') in 0.007442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Props.png
+  artifactKey: Guid(29c9cded5e558164aaf8c9bf08aa1510) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Props.png using Guid(29c9cded5e558164aaf8c9bf08aa1510) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ee10bc4fe26f5f4ed429d9402b39e63') in 0.219743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Struct.png
+  artifactKey: Guid(dda6bbdb704d84847b38f9eced72bf59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Struct.png using Guid(dda6bbdb704d84847b38f9eced72bf59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0354dd7be193f06c7149603e6fc93520') in 0.153634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_9.asset
+  artifactKey: Guid(8a5b14a18306acb459ff254e2f3e184f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_9.asset using Guid(8a5b14a18306acb459ff254e2f3e184f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '19a15165759187570367cfed162bf491') in 0.022797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TileMap/oak_woods_tileset_13.asset
+  artifactKey: Guid(f2dc85404b9428a448d4d47450527b03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_13.asset using Guid(f2dc85404b9428a448d4d47450527b03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5853233f9b028e327292b97f350ba2f3') in 0.021404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Material/MT Sprite.mat
+  artifactKey: Guid(a9f84881abde25b48904c0ff67bca145) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Material/MT Sprite.mat using Guid(a9f84881abde25b48904c0ff67bca145) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2a4bbad0f61cad20696d01a3d144da91') in 0.016785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Stone Ground.png
+  artifactKey: Guid(a07735877a3bd644094331b137b71878) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Stone Ground.png using Guid(a07735877a3bd644094331b137b71878) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0da57f6c9f4527a43d99306ef6e31c9e') in 0.225710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Script/CameraFollow.cs
+  artifactKey: Guid(13d0e62721e731a47916713e45e4ef50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Script/CameraFollow.cs using Guid(13d0e62721e731a47916713e45e4ef50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '287bd6d5dc6153f5816448bf34ca4d18') in 0.008941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/TileMap/oak_woods_tileset_4.asset
+  artifactKey: Guid(75293772a40e5764fa73a16fdb235206) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_4.asset using Guid(75293772a40e5764fa73a16fdb235206) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5b119429bfef381a29fb59a6cd107a11') in 0.017269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TileMap/oak_woods_tileset_11.asset
+  artifactKey: Guid(b53aa0eb918586d4387b38b0f507a34b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_11.asset using Guid(b53aa0eb918586d4387b38b0f507a34b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '99e1eb4e13a4c235a1a352567b2581db') in 0.018703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_63.asset
+  artifactKey: Guid(d35e581c821b9fe47a9fa50c5121fa96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_63.asset using Guid(d35e581c821b9fe47a9fa50c5121fa96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf4ef9228bc1ec87ca3b8eaae2b2bfb8') in 0.020462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player E.anim
+  artifactKey: Guid(9c9b80278bafb8846947b902bf348003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player E.anim using Guid(9c9b80278bafb8846947b902bf348003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd047ef5d043f3f6f39ec9988c7510282') in 0.029296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_36.asset
+  artifactKey: Guid(adfec5a436ed1d44488f2e78667c5b15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_36.asset using Guid(adfec5a436ed1d44488f2e78667c5b15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b58fac2153ce5228d3b8ed1f443b43f1') in 0.016100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_7.asset
+  artifactKey: Guid(2f19e1ffb7f474f41b20cdfdbc3c0465) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_7.asset using Guid(2f19e1ffb7f474f41b20cdfdbc3c0465) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3ce233bdd4872bfb2ed71e314177a6df') in 0.017063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png
+  artifactKey: Guid(1c9ed9d1200c29d4cbfd2071028c1cd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png using Guid(1c9ed9d1200c29d4cbfd2071028c1cd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5d9649fb601781fe711d9a49d8c5e726') in 0.282148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass A.prefab
+  artifactKey: Guid(a0a66c9b152e801409fc26c4ca493d18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass A.prefab using Guid(a0a66c9b152e801409fc26c4ca493d18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ac48d8be1e5fef4e206bd453356abea9') in 0.048893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Effects/7_firespin_spritesheet.png
+  artifactKey: Guid(e11e4c8028260d840ab914196a5f31fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/7_firespin_spritesheet.png using Guid(e11e4c8028260d840ab914196a5f31fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '63ca36319251a1e95fed1834aa5d97f5') in 0.066460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_66.asset
+  artifactKey: Guid(e39e756c5b767a84a97e2103482d41ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_66.asset using Guid(e39e756c5b767a84a97e2103482d41ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e3abd7ed26a38f149254e5a337787576') in 0.020098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16.png
+  artifactKey: Guid(45f08bdbc5518334c878282675c1e642) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16.png using Guid(45f08bdbc5518334c878282675c1e642) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6eb00dac3b9bea225b1b6b1cd5129abf') in 0.221363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Sprites/ratoncito/Melee/meleeAttack.controller
+  artifactKey: Guid(fcd860c33184398419299876d9a84ecb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/ratoncito/Melee/meleeAttack.controller using Guid(fcd860c33184398419299876d9a84ecb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '139f398f1be3ecca39f21ffa533960db') in 0.006404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_12.asset
+  artifactKey: Guid(21645d0d7e309ba418bad6ca08b81bfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_12.asset using Guid(21645d0d7e309ba418bad6ca08b81bfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b68e892487abdfed2b0d4623183ed54e') in 0.011615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_2.asset
+  artifactKey: Guid(e63469721e60e2640989fb28ae4c6e8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_2.asset using Guid(e63469721e60e2640989fb28ae4c6e8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3fd76e07aecdffd7b4ab40edeadcc9a9') in 0.009535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Effects/18_midnight_spritesheet.png
+  artifactKey: Guid(767d33f31b0d1744cbcec03f923b52fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/18_midnight_spritesheet.png using Guid(767d33f31b0d1744cbcec03f923b52fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '67644db7b75ecf7506d6f799b8184739') in 0.032078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Script/PropsAltar.cs
+  artifactKey: Guid(7edd0f787bc46de479f0d96bba16e2a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Script/PropsAltar.cs using Guid(7edd0f787bc46de479f0d96bba16e2a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '746e1af7d8650ea2cc24761e6bc698f4') in 0.006635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/oak_woods_tileset.png
+  artifactKey: Guid(6e80ed9316b71a74c8048f8acdd1199f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/oak_woods_tileset.png using Guid(6e80ed9316b71a74c8048f8acdd1199f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '266e6ce9e565dadf0ea7b81568f82610') in 0.070311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Effects/14_phantom_spritesheet.png
+  artifactKey: Guid(b4f28c0049a2dca41bef4ac71a990e45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/14_phantom_spritesheet.png using Guid(b4f28c0049a2dca41bef4ac71a990e45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a1ef8922dc26367df96ab3c8580f3abb') in 0.030107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/esqueleto/Jumping/jumping.png
+  artifactKey: Guid(df4fca06ac4b3f14a9ae59a476e6e000) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/esqueleto/Jumping/jumping.png using Guid(df4fca06ac4b3f14a9ae59a476e6e000) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f82671ffc2514695e5a3988fae82a1e') in 0.043867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Player.png
+  artifactKey: Guid(ec47f75fe8aff1644ac73998f4ad31b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Player.png using Guid(ec47f75fe8aff1644ac73998f4ad31b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9c6bfd7f0fc344b2326c907cf1b0c26a') in 0.028958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Effects/19_freezing_spritesheet.png
+  artifactKey: Guid(9e0948c9628ebbc43b02c9b8c03dc434) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/19_freezing_spritesheet.png using Guid(9e0948c9628ebbc43b02c9b8c03dc434) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '26fc140c2db8955e84545dd561b667c7') in 0.031650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Preset/Tags & Layers - Pixel Art Top Down - Basic.preset
+  artifactKey: Guid(9c251c5594f708844890276e5d8b709a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Preset/Tags & Layers - Pixel Art Top Down - Basic.preset using Guid(9c251c5594f708844890276e5d8b709a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b118444f237cb7221fa5cd4c4bf4e30e') in 0.014391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_14.asset
+  artifactKey: Guid(6a018e6e53cda0141b12c420990fdbb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_14.asset using Guid(6a018e6e53cda0141b12c420990fdbb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b88f92aa0c52ee2be0fd96b61133cdc9') in 0.011505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/ratoncito/ratoncito_specialmove.png
+  artifactKey: Guid(2cd0de134e4e187498f7378c78cbfde6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/ratoncito/ratoncito_specialmove.png using Guid(2cd0de134e4e187498f7378c78cbfde6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b12710fa9cb9c7138fc45e8c6b2707e') in 0.028916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_42.asset
+  artifactKey: Guid(00d74ea8bff40ac40989944f82e310ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_42.asset using Guid(00d74ea8bff40ac40989944f82e310ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0397e3d7ba265377af146f0237745af3') in 0.009373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/oak_woods_tileset_15.asset
+  artifactKey: Guid(c15f3b12a5f8c7246a0910d6bcf1cef6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_15.asset using Guid(c15f3b12a5f8c7246a0910d6bcf1cef6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b4708fa62aa3f7a73557ec57e072376a') in 0.011148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Elements/Mossy - Hanging Plants.png
+  artifactKey: Guid(bada418ed0bd311428f7085987cd9327) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Elements/Mossy - Hanging Plants.png using Guid(bada418ed0bd311428f7085987cd9327) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '274b53de9df8e8b1c0dd1fe3b5090311') in 0.049681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Wall.png
+  artifactKey: Guid(9f8f114589864b6489859a58fbb6baf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Wall.png using Guid(9f8f114589864b6489859a58fbb6baf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd83befcd15eb9da00a2f672e7f72dae0') in 0.148199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd26f47c3fedd7a3e3fb457dc83679623') in 0.005226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_10.asset
+  artifactKey: Guid(cb171dfeb65c9d647b123c4ca522b205) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_10.asset using Guid(cb171dfeb65c9d647b123c4ca522b205) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'afda4e7ce76b256cdf4f0e8376ee6aef') in 0.012086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/ratoncito/Melee/Attack.anim
+  artifactKey: Guid(f2ee0083d53d1494192d761a08f4ed10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/ratoncito/Melee/Attack.anim using Guid(f2ee0083d53d1494192d761a08f4ed10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2fb7fba7c25209a9c05d2afdeeca1bc6') in 0.012181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/ratoncito/Jumping/ratoncito_jumping.png
+  artifactKey: Guid(58308668b90486c4aaaa1115ac2ebd7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/ratoncito/Jumping/ratoncito_jumping.png using Guid(58308668b90486c4aaaa1115ac2ebd7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a54b15a9e880c25239a54669ce42e6e9') in 0.029698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TileMap/oak_woods_tileset_0.asset
+  artifactKey: Guid(74e79b00cc656074fa740bd5a6287350) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_0.asset using Guid(74e79b00cc656074fa740bd5a6287350) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cbb8eb62366f2ad8cd12c8cabc6c1951') in 0.014360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Effects/5_magickahit_spritesheet.png
+  artifactKey: Guid(17628e685d003734c835a7b35d45559a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/5_magickahit_spritesheet.png using Guid(17628e685d003734c835a7b35d45559a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '26eac496e992b806a40590cc00f67531') in 0.031040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/ratoncito/Jumping/jumping.anim
+  artifactKey: Guid(533da98769365f5499409f502bb4bf32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/ratoncito/Jumping/jumping.anim using Guid(533da98769365f5499409f502bb4bf32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8cffd7e13bfce113da44942caf69e2b6') in 0.011086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMap/oak_woods_tileset_16.asset
+  artifactKey: Guid(3927e16c01aa282449e4f1fd75a42863) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_16.asset using Guid(3927e16c01aa282449e4f1fd75a42863) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '973445d137ee89fe382e539915185611') in 0.011832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_55.asset
+  artifactKey: Guid(b34471da40582ae4eb84c17b2784d723) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_55.asset using Guid(b34471da40582ae4eb84c17b2784d723) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '89509a57b4f39e869ca3f81f8c7bdad3') in 0.013723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_3.asset
+  artifactKey: Guid(526bfecb2f37d54419185ab36bfcbc85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_3.asset using Guid(526bfecb2f37d54419185ab36bfcbc85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef161665a06a045f4480a3f3b6782ba9') in 0.011126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/ratoncito/Idle/ratoncito_idle.png
+  artifactKey: Guid(66ad8c5cfc0046543b21c5ee144e4631) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/ratoncito/Idle/ratoncito_idle.png using Guid(66ad8c5cfc0046543b21c5ee144e4631) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '03f15416571f7d93b30197be1f0c8d46') in 0.026179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player W.anim
+  artifactKey: Guid(c10ec0603bf61454d98ee6718e2130e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player W.anim using Guid(c10ec0603bf61454d98ee6718e2130e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c17d59a45eb79c390d03eaab6dbfa22') in 0.010929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Elements/shop_anim.png
+  artifactKey: Guid(acb23e040c2951b4986a85080a9a9263) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Elements/shop_anim.png using Guid(acb23e040c2951b4986a85080a9a9263) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3e092eb8961b41f15acf9159a9421bc4') in 0.021239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/ratoncito/Melee/ratoncito_melee.png
+  artifactKey: Guid(082a8d743b4807a49a79eb80ae4905c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/ratoncito/Melee/ratoncito_melee.png using Guid(082a8d743b4807a49a79eb80ae4905c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1e6d889104576dd8efb61f9154875ec6') in 0.038318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/ratoncito/walking/walking.anim
+  artifactKey: Guid(bf7f607acd12c584cb893b7806d5ba3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/ratoncito/walking/walking.anim using Guid(bf7f607acd12c584cb893b7806d5ba3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '136842be651a4f0b99473b91121ae2ae') in 0.007680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Elements/fence_1.png
+  artifactKey: Guid(3be6253b205c23347a1cf74463d00c00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Elements/fence_1.png using Guid(3be6253b205c23347a1cf74463d00c00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bdcdc7e62d1a202820f3debca4f55fed') in 0.019769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player S.anim
+  artifactKey: Guid(1c0be051fbf975d4d9683fd3a6e5aa15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player S.anim using Guid(1c0be051fbf975d4d9683fd3a6e5aa15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '82c5bdedcfcca471bf78f0150e2a789c') in 0.011211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_68.asset
+  artifactKey: Guid(25eccd9fb73db2542b952fb11330a784) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_68.asset using Guid(25eccd9fb73db2542b952fb11330a784) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2c6f632b78bd0836e2b883dd652626d6') in 0.009862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass B.prefab
+  artifactKey: Guid(2d546d2d8b016864ab41e2185c250eb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass B.prefab using Guid(2d546d2d8b016864ab41e2185c250eb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8399feeb93733b5f9d30a16c6ef413ba') in 0.011420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Flower.prefab
+  artifactKey: Guid(c6d86ec8825b7674a9736d1cb0cd98a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Flower.prefab using Guid(c6d86ec8825b7674a9736d1cb0cd98a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '083d7235ea31dd690d8e9baa882f0153') in 0.015705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/ratoncito/walking/walking 1.anim
+  artifactKey: Guid(aa28db95db57d004789ff32fbde24acf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/ratoncito/walking/walking 1.anim using Guid(aa28db95db57d004789ff32fbde24acf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9f57e15ec8ba01ccc8e456da235f44b5') in 0.011559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/esqueleto/Idle/Idle.anim
+  artifactKey: Guid(bef3f0a4477e4a245bba5c9d26aaa89f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/esqueleto/Idle/Idle.anim using Guid(bef3f0a4477e4a245bba5c9d26aaa89f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1a58f9742ff39a73800cb7fc6812ba39') in 0.010409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/corazon/beat.anim
+  artifactKey: Guid(27201d9e58f3f1248ab0caaca65b15ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/corazon/beat.anim using Guid(27201d9e58f3f1248ab0caaca65b15ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72fdd96ddf0a9a36d13d25775c6e7345') in 0.010908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/backgrounds/background_layer_1.png
+  artifactKey: Guid(350003aaae050454ebed47c6b69ac1a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/backgrounds/background_layer_1.png using Guid(350003aaae050454ebed47c6b69ac1a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fda0b3bc82f865f716be20cd97469746') in 0.032881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AC Player.controller
+  artifactKey: Guid(eb1ae3e395b532e4d8dbc08a412e4a7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AC Player.controller using Guid(eb1ae3e395b532e4d8dbc08a412e4a7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '37370dc73decf403dd22b43273a968e0') in 0.016078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Elements/sign.png
+  artifactKey: Guid(1bea69c0faa19434da41367737d40e40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Elements/sign.png using Guid(1bea69c0faa19434da41367737d40e40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5d8b71cd56452d06f9dbedf48232389b') in 0.027553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TileMap/oak_woods_tileset_22.asset
+  artifactKey: Guid(4cdea4d2236271d4b8c897b1221c8589) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_22.asset using Guid(4cdea4d2236271d4b8c897b1221c8589) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '15d8dd3ef6080ab7fce770697f992f76') in 0.014510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player N.anim
+  artifactKey: Guid(318841139f2ea6c468581225baff9a59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player N.anim using Guid(318841139f2ea6c468581225baff9a59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '15b2228e1251daa34d5427ca9dcec7de') in 0.010148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/skellykelly.unity
+  artifactKey: Guid(7563244b3cccd00449d9cec58d561994) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/skellykelly.unity using Guid(7563244b3cccd00449d9cec58d561994) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '723f3eef221879b0da3bc1fc2e5001ca') in 0.007221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_34.asset
+  artifactKey: Guid(f5a193bef573ad14aac50fbe975fe9ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_34.asset using Guid(f5a193bef573ad14aac50fbe975fe9ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6d259acdb79c20a5a7a356cc761ba9b6') in 0.014005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/corazon/corazon2.png
+  artifactKey: Guid(8c8d3c597517a6344b415a66c190bf58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/corazon/corazon2.png using Guid(8c8d3c597517a6344b415a66c190bf58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '06529be67229d08f8bf1db88c2616792') in 0.033026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Elements/fence_2.png
+  artifactKey: Guid(55ed1406cc8700044ab5b5bdb4709dca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Elements/fence_2.png using Guid(55ed1406cc8700044ab5b5bdb4709dca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7eed8fccd28a8b18c9000fd5effd8fda') in 0.027073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_43.asset
+  artifactKey: Guid(43e6730ed91c18f45b22a21737332189) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_43.asset using Guid(43e6730ed91c18f45b22a21737332189) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6fb18b809dc392a7c1c18002ce51e777') in 0.012004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_33.asset
+  artifactKey: Guid(d787b318b2964154da93c7622a5e2c2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_33.asset using Guid(d787b318b2964154da93c7622a5e2c2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '09dbe6226d5b82960b8ed329904905e6') in 0.014925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Animaciones/esqueletoA.controller
+  artifactKey: Guid(49160aab12fa2d0449857661ec594a39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animaciones/esqueletoA.controller using Guid(49160aab12fa2d0449857661ec594a39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '61b76016445ff1c4aa3e10e869a1d8b0') in 0.010556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Elements/rock_2.png
+  artifactKey: Guid(f9b6edceb6f056e459014b328c084903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Elements/rock_2.png using Guid(f9b6edceb6f056e459014b328c084903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f4bf2d8d65976ca8be3e195a24f8f688') in 0.025618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_41.asset
+  artifactKey: Guid(8cd81c0353aa3364e8a60e1252fdd57c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_41.asset using Guid(8cd81c0353aa3364e8a60e1252fdd57c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '22c160c19c3eba9f92b738315da48095') in 0.012204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_50.asset
+  artifactKey: Guid(e9fc57346efc5f745ba85782b314a7c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_50.asset using Guid(e9fc57346efc5f745ba85782b314a7c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '17a1790d240bc033be574d02612b9738') in 0.010596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Sprites/corazon/corazon1.png
+  artifactKey: Guid(98bb00a25ca3438448a9ab33257e735b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/corazon/corazon1.png using Guid(98bb00a25ca3438448a9ab33257e735b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '740a17fee7e2196eb2b5d2c9916086c2') in 0.023601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TileMap/oak_woods_tileset_9.asset
+  artifactKey: Guid(985fec0c9e5c70e4dba1253e702779c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_9.asset using Guid(985fec0c9e5c70e4dba1253e702779c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e6439a0633e973efff5b53266b60f7db') in 0.010644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Elements/grass_3.png
+  artifactKey: Guid(3c904756caf28f649be60bc47274db37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Elements/grass_3.png using Guid(3c904756caf28f649be60bc47274db37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '520afc2e3171f2bcacea7d69ebb2423d') in 0.019916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprites/Effects/1_magicspell_spritesheet.png
+  artifactKey: Guid(36b917ee689cba348b3a33555bd7390f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/1_magicspell_spritesheet.png using Guid(36b917ee689cba348b3a33555bd7390f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fb8171bad98ea352118827c2cf582a8e') in 0.024610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/ratoncito/Melee/melee.anim
+  artifactKey: Guid(ba481f794ba5b5a4f93ee6751021758b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/ratoncito/Melee/melee.anim using Guid(ba481f794ba5b5a4f93ee6751021758b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7ea3d90c9ae2f93bdc5404b8d3aff075') in 0.007981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_11.asset
+  artifactKey: Guid(5b8897226fbd2ec44810a645a9ae39ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_11.asset using Guid(5b8897226fbd2ec44810a645a9ae39ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ab9466d89a02b420608ac1955a40a1a7') in 0.009081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_19.asset
+  artifactKey: Guid(b1a3c1638b7a3254a9ce09c6fa8dbf85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_19.asset using Guid(b1a3c1638b7a3254a9ce09c6fa8dbf85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd5300e581de2b843e74cb5188cedc518') in 0.012103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Crate Small.prefab
+  artifactKey: Guid(2e2ac125e54a1e44780363d638b1df34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Crate Small.prefab using Guid(2e2ac125e54a1e44780363d638b1df34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '25238cb66ae51720f2eba69c69601858') in 0.057118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot A.prefab
+  artifactKey: Guid(ac719b1d0f58391469cc19fd947ca44c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot A.prefab using Guid(ac719b1d0f58391469cc19fd947ca44c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c9e6d661b511372adc3dd1d50e063fe') in 0.033719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair Broken L.prefab
+  artifactKey: Guid(6bc7a266104dec640a8bc2ab2e5cd968) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair Broken L.prefab using Guid(6bc7a266104dec640a8bc2ab2e5cd968) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0cac6ab86a043099c83a65188ace4716') in 0.016634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Gravestone B.prefab
+  artifactKey: Guid(6242b925f1d3e0d44a183102cd3d4c26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Gravestone B.prefab using Guid(6242b925f1d3e0d44a183102cd3d4c26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5960043ccadd861d3a9bd4996c46c2dc') in 0.029482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T5.prefab
+  artifactKey: Guid(9fb66d8c9d3b5194a82e9eed65a54afb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T5.prefab using Guid(9fb66d8c9d3b5194a82e9eed65a54afb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8431544ab32be193be7f398a61f85eda') in 0.026901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot C.prefab
+  artifactKey: Guid(f3cc2373308c11848977b28d974a9de0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot C.prefab using Guid(f3cc2373308c11848977b28d974a9de0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '446310ec796a7b9c56d5b2b178f8922b') in 0.033790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair R.prefab
+  artifactKey: Guid(df420ddd0ffda274cba2d4807d8987bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair R.prefab using Guid(df420ddd0ffda274cba2d4807d8987bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '64007352615ec973911219a5676b45e8') in 0.014595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass H.prefab
+  artifactKey: Guid(8c66149e58003104daf96668db118b4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass H.prefab using Guid(8c66149e58003104daf96668db118b4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3b73cb43eadd9b9a7845820fc65d71b4') in 0.022869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Brick T2.prefab
+  artifactKey: Guid(5d42979a3c318c341b37b4b1f2c85750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Brick T2.prefab using Guid(5d42979a3c318c341b37b4b1f2c85750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '91733751109abcfe6a398b1cabc7bb5c') in 0.025729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T1.prefab
+  artifactKey: Guid(f681a54372d73d74785b9c9d4ac477e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T1.prefab using Guid(f681a54372d73d74785b9c9d4ac477e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e04ff330e0c4296167819fa0e0c325d7') in 0.018738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pillar Broken.prefab
+  artifactKey: Guid(cfa0a5ef94fb05d4f97d095a05dc55c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pillar Broken.prefab using Guid(cfa0a5ef94fb05d4f97d095a05dc55c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '117eabd69cdc28b80b030993b86743f3') in 0.031189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass E.prefab
+  artifactKey: Guid(019ab1af1d7a4b742a982c009534c058) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass E.prefab using Guid(019ab1af1d7a4b742a982c009534c058) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c371295cd0eaabb5835d521b3acfc12a') in 0.019760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass O.prefab
+  artifactKey: Guid(bf462882706828c44a4465986b6fb8d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass O.prefab using Guid(bf462882706828c44a4465986b6fb8d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a9141517815e91747d3beb7298f8babd') in 0.025673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T6.prefab
+  artifactKey: Guid(39562e88b536753438a3153c5fbdf7b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T6.prefab using Guid(39562e88b536753438a3153c5fbdf7b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '73096514de9a4fcbde5f6b4710f603ee') in 0.027296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T2.prefab
+  artifactKey: Guid(713b33322b495794e92184973ece3034) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T2.prefab using Guid(713b33322b495794e92184973ece3034) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b1daad1c0ae5c073df1e3788fa19a398') in 0.028515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass N.prefab
+  artifactKey: Guid(af67ceadc087899479232f75d2b79d59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass N.prefab using Guid(af67ceadc087899479232f75d2b79d59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '784264ce9def3d40beb1629598c424d9') in 0.029870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Statue.prefab
+  artifactKey: Guid(d730038d263986f4dac93230e1dd62b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Statue.prefab using Guid(d730038d263986f4dac93230e1dd62b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '54fa12023e9a75fa2af5f2a572199cbf') in 0.036953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T7.prefab
+  artifactKey: Guid(f826bf48ad5bedc4ab6cabe6c4e498e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T7.prefab using Guid(f826bf48ad5bedc4ab6cabe6c4e498e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ce9a8bedd44a6e3ef9d521cc22c8345') in 0.034102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Wooden Gate.prefab
+  artifactKey: Guid(6a057178eb028e94fb93bf39262ea3e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Wooden Gate.prefab using Guid(6a057178eb028e94fb93bf39262ea3e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '76cdbac10fd713ee0d6f142997dc21da') in 0.150502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Bench E.prefab
+  artifactKey: Guid(d925f1d26bd95904886e446c97ec33c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Bench E.prefab using Guid(d925f1d26bd95904886e446c97ec33c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '13f49f80c58f52a0be92f696c8c619cd') in 0.127977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Player/PF Player.prefab
+  artifactKey: Guid(ef67ba864d1ecc042b5f4cf48455c0a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Player/PF Player.prefab using Guid(ef67ba864d1ecc042b5f4cf48455c0a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78bc0a7d8edb43aee9352e3b812e3e96') in 0.054379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Gravestone C.prefab
+  artifactKey: Guid(3fcd8726c7cd53345947949baefbab35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Gravestone C.prefab using Guid(3fcd8726c7cd53345947949baefbab35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2796aa06b1a2beea92a10de44df1285d') in 0.038796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Coffin V.prefab
+  artifactKey: Guid(e54d3c80cde4e314eae0912eca6a93ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Coffin V.prefab using Guid(e54d3c80cde4e314eae0912eca6a93ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b75e8d038dd65207741b0eb2537775bf') in 0.030023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Lantern.prefab
+  artifactKey: Guid(84395be60ff2def43bb58fa039614eab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Lantern.prefab using Guid(84395be60ff2def43bb58fa039614eab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '25ddc90faa9963369fbceb94cf456f65') in 0.032093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T1.prefab
+  artifactKey: Guid(a0a71fda412ad0941ab44f1732ea4c1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T1.prefab using Guid(a0a71fda412ad0941ab44f1732ea4c1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '76bef11d8d71048d8b17cf050ffd38bf') in 0.026371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Barrel.prefab
+  artifactKey: Guid(413081fc53a78a043b38591243616398) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Barrel.prefab using Guid(413081fc53a78a043b38591243616398) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b3fc24d2afcd740cd400dc29117f8bec') in 0.032155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass L.prefab
+  artifactKey: Guid(1dc4948f20ddc324f84c815af63aa6a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass L.prefab using Guid(1dc4948f20ddc324f84c815af63aa6a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db1f82788d93375698a7098a5b906b25') in 0.022399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T4.prefab
+  artifactKey: Guid(4bd7b41600416b54395bf9936a05dc8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T4.prefab using Guid(4bd7b41600416b54395bf9936a05dc8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '79e2cd25c4dd311618aff7e56fffdead') in 0.032925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Gravestone A.prefab
+  artifactKey: Guid(6d9a1504606c57143b1a8bbc2249aabe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Gravestone A.prefab using Guid(6d9a1504606c57143b1a8bbc2249aabe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'af67e55eabe1e6e9e4321ac3c5650a43') in 0.030305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Bench S.prefab
+  artifactKey: Guid(8fd7cba4384381e4aad6dc90158fc9d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Bench S.prefab using Guid(8fd7cba4384381e4aad6dc90158fc9d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '18ab612dd8c0c3b92ed987bf80e1c97f') in 0.031524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass I.prefab
+  artifactKey: Guid(424ccba55881d2743a04e1f1a4947e4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass I.prefab using Guid(424ccba55881d2743a04e1f1a4947e4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '573ad8fe6b6cd0675b992c0e86a790f4') in 0.018658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Well.prefab
+  artifactKey: Guid(91afc0649ae41a64c860a5d49f05ff40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Well.prefab using Guid(91afc0649ae41a64c860a5d49f05ff40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b32acbbc67a3c4c70580a3a3258d29a') in 0.030584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T2.prefab
+  artifactKey: Guid(7277dd75e907b27448ec1de08238d0bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T2.prefab using Guid(7277dd75e907b27448ec1de08238d0bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3782168743f7b37ced5d1d6c698eba02') in 0.019262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Rune Pillar X2.prefab
+  artifactKey: Guid(6d6991dbbdeecb1488bbf78c063d1235) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Rune Pillar X2.prefab using Guid(6d6991dbbdeecb1488bbf78c063d1235) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c5246a4abfdf8612eb133e7a337a8b2') in 0.033154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Bench W.prefab
+  artifactKey: Guid(8eb546cfc24c8c24196899cee5797135) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Bench W.prefab using Guid(8eb546cfc24c8c24196899cee5797135) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9c0eebf9c94c918a049e04e7b4b485fb') in 0.027309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair Broken M.prefab
+  artifactKey: Guid(295e819650a63784185fc3d55ce9e650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair Broken M.prefab using Guid(295e819650a63784185fc3d55ce9e650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '025f903c27963e64a71d04de84d1f219') in 0.015436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Cube.prefab
+  artifactKey: Guid(f6a5710827e32d3489da2c249e3bc400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Cube.prefab using Guid(f6a5710827e32d3489da2c249e3bc400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '818000e02881cf903dd5da58509b1d92') in 0.037338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass F.prefab
+  artifactKey: Guid(84d669757910f1f488023c92e71fcad5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass F.prefab using Guid(84d669757910f1f488023c92e71fcad5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'acfb77fabd45813664dc91c566471b37') in 0.024848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Gate T1.prefab
+  artifactKey: Guid(4be821d0b78ad5043985b57b738e951b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Gate T1.prefab using Guid(4be821d0b78ad5043985b57b738e951b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7297dbdf5d9433caebd94a324b2f6fa1') in 0.016636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T5.prefab
+  artifactKey: Guid(139b2d65b3145ad45bc13b6d111199de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T5.prefab using Guid(139b2d65b3145ad45bc13b6d111199de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7d142881589a78a7ca6efd30d0483157') in 0.028189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass C.prefab
+  artifactKey: Guid(403080d7568a4f949b4bfc7128477a8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass C.prefab using Guid(403080d7568a4f949b4bfc7128477a8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '630ebfc17dd45a78e6b70ce2080246a4') in 0.024841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T6.prefab
+  artifactKey: Guid(d5762f992ea3bd544bb8287f66e8f844) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T6.prefab using Guid(d5762f992ea3bd544bb8287f66e8f844) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9e3e9438fefa70a8788118f855ba9acf') in 0.031425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pillar.prefab
+  artifactKey: Guid(41ea6afb203377e42995d7d016ea5907) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pillar.prefab using Guid(41ea6afb203377e42995d7d016ea5907) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3e90bb18a930fcf61c15688bf7c7e76d') in 0.026289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Crate.prefab
+  artifactKey: Guid(fb2df5b680b64b449a78162ebcd98e97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Crate.prefab using Guid(fb2df5b680b64b449a78162ebcd98e97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e65003de2a0935f3fbcc967b6230e9f9') in 0.040195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T3.prefab
+  artifactKey: Guid(0505844a909d2ea4996c19b67b2a40b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T3.prefab using Guid(0505844a909d2ea4996c19b67b2a40b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a539eb6cbff863c3ab536f970a740a18') in 0.048618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Road Sign W.prefab
+  artifactKey: Guid(5c635e5bc09c93043a53ee0e17e89d0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Road Sign W.prefab using Guid(5c635e5bc09c93043a53ee0e17e89d0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '926e0c31bf5badb2426134a3c6e608c7') in 0.039690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Coffin H.prefab
+  artifactKey: Guid(42d58802fe231b14c8692b0c06082f5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Coffin H.prefab using Guid(42d58802fe231b14c8692b0c06082f5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b44c6e7bb37ad6ef72f9907be2480480') in 0.038056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass K.prefab
+  artifactKey: Guid(4800845c2c4caa84eb6194552ae9c841) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass K.prefab using Guid(4800845c2c4caa84eb6194552ae9c841) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0237ff3271f9850ad91ab2f962e7bf4f') in 0.034728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T3.prefab
+  artifactKey: Guid(9e7797bb065982d4497d030f065d6e2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T3.prefab using Guid(9e7797bb065982d4497d030f065d6e2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f4c433e4a8a2d90e9a37d974dc78a86e') in 0.029212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Brick T3.prefab
+  artifactKey: Guid(92a9322ee3bba184f91fbebe53b69bd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Brick T3.prefab using Guid(92a9322ee3bba184f91fbebe53b69bd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '55239072a394e964d4ee71f6b0a9d886') in 0.025487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Wooden Gate Opened.prefab
+  artifactKey: Guid(8e9c401d7a70ec94d956296ea011f594) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Wooden Gate Opened.prefab using Guid(8e9c401d7a70ec94d956296ea011f594) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dcf4d1e89ab7d13be9fbaa6d6e8ffcf9') in 0.031309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot B.prefab
+  artifactKey: Guid(63ee4b6a40c55fd429759b807832ded1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot B.prefab using Guid(63ee4b6a40c55fd429759b807832ded1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b20949cbdeeae7a3feee48de536abbe') in 0.038985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair Broken R.prefab
+  artifactKey: Guid(b7a5fce6e52ebbf488a8e8516c6692cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair Broken R.prefab using Guid(b7a5fce6e52ebbf488a8e8516c6692cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fdd97ac6178f6e3c6ca5020429679c1d') in 0.025009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass G.prefab
+  artifactKey: Guid(8d15c39fd3e3cab47ab96fbaf6dc2f92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass G.prefab using Guid(8d15c39fd3e3cab47ab96fbaf6dc2f92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c6191b5119d1f17964a38252568d173') in 0.025354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass M.prefab
+  artifactKey: Guid(c5c395a83c3338d46bd52e936cf46245) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass M.prefab using Guid(c5c395a83c3338d46bd52e936cf46245) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '745311d66a2b907488f5896e586c95dc') in 0.027545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair M.prefab
+  artifactKey: Guid(78e9efbdf9b33994da8dfbe530f65e5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair M.prefab using Guid(78e9efbdf9b33994da8dfbe530f65e5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '27b35a9f5273a7a3e6756ad888ba700e') in 0.016406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Rune Pillar Broken.prefab
+  artifactKey: Guid(8728cc48d2747494893fd60426c06f6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Rune Pillar Broken.prefab using Guid(8728cc48d2747494893fd60426c06f6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9eceba66a8a9eca0f648f29988d2c8c6') in 0.028689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T1.prefab
+  artifactKey: Guid(6d69371a87148ee4dac7b2b814437ffd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T1.prefab using Guid(6d69371a87148ee4dac7b2b814437ffd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c7ffda49098c804c0903981e1e770323') in 0.021659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Rune Pillar X3.prefab
+  artifactKey: Guid(4fad9c4de6b725a43bb1200ed9479c08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Rune Pillar X3.prefab using Guid(4fad9c4de6b725a43bb1200ed9479c08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ed24514d48cad592b9b127ece594183') in 0.026039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/ratoncito/Idle/ratoncito.controller
+  artifactKey: Guid(53a077f69dc99e546b8948c3540591c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/ratoncito/Idle/ratoncito.controller using Guid(53a077f69dc99e546b8948c3540591c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7161564347c5ca582737fd6326b1992a') in 0.016923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T3.prefab
+  artifactKey: Guid(ba7fef4c928d8c4459466bf93171730e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T3.prefab using Guid(ba7fef4c928d8c4459466bf93171730e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c758a20c8b1ca9d8d90c8e8f15349e15') in 0.030248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Effects/10_weaponhit_spritesheet.png
+  artifactKey: Guid(b8ca421ad5c80bf4b994883844ee9cc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/10_weaponhit_spritesheet.png using Guid(b8ca421ad5c80bf4b994883844ee9cc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7646ffeacdfced5e886b5dd910748f48') in 0.035565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player Move.anim
+  artifactKey: Guid(3efcd6bf71902b94bb400e73d4f7140e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player Move.anim using Guid(3efcd6bf71902b94bb400e73d4f7140e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ab2ff4f41b775b5cd5f36f77dce6d6ce') in 0.012929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Sprites/Effects/4_casting_spritesheet.png
+  artifactKey: Guid(47141b8f6e971fb4eb70d0d4b2b0aa5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/4_casting_spritesheet.png using Guid(47141b8f6e971fb4eb70d0d4b2b0aa5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd1e3042f29b62008ff373cd7b9cea2e2') in 0.040371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Elements/Mossy - FloatingPlatforms.png
+  artifactKey: Guid(d515f2cfce438244ba85b303e30d06c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Elements/Mossy - FloatingPlatforms.png using Guid(d515f2cfce438244ba85b303e30d06c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '99a4e0f20c3984519ac915940a956729') in 0.035950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_40.asset
+  artifactKey: Guid(6cb1b81be7800d94ca49a177fcdb00fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_40.asset using Guid(6cb1b81be7800d94ca49a177fcdb00fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c48b369c2fda0c3e98ed60b98f9fa6aa') in 0.018252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Altar.prefab
+  artifactKey: Guid(c5bdca1933fde624698bb8c6d6daa44b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Altar.prefab using Guid(c5bdca1933fde624698bb8c6d6daa44b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec521208e2c1289e5c000d91ad4c96fc') in 0.027002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Elements/shop.png
+  artifactKey: Guid(14605969a63e6f5478105dba797f5570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Elements/shop.png using Guid(14605969a63e6f5478105dba797f5570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'acf7ce92a9085e9eb569e74682b4d09c') in 0.035524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_48.asset
+  artifactKey: Guid(2f4e7f7a516d3994a8182e4cb7483769) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_48.asset using Guid(2f4e7f7a516d3994a8182e4cb7483769) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ef32bd3f75d1bd695fe09342751d74b') in 0.016451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_44.asset
+  artifactKey: Guid(05ab4494926f40c4aa08399d2cd56d82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_44.asset using Guid(05ab4494926f40c4aa08399d2cd56d82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9b18d72bf977d9617e452d200fae1929') in 0.017671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TileMap/oak_woods_tileset_6.asset
+  artifactKey: Guid(f1b4f7807291a0c4a9fa6f1522c650f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_6.asset using Guid(f1b4f7807291a0c4a9fa6f1522c650f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b10ba09848099fbe0721e2d3bce6ded3') in 0.030811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_26.asset
+  artifactKey: Guid(63cf217813124144da4018e8b0c5e76e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_26.asset using Guid(63cf217813124144da4018e8b0c5e76e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4167c967322bf94778e133f51ceef866') in 0.021962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Gate T2.prefab
+  artifactKey: Guid(b95acdc3b0c1a444c87723520fbab2f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Gate T2.prefab using Guid(b95acdc3b0c1a444c87723520fbab2f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c5772c560943f096e4f50be6919ed4d') in 0.018019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Effects/9_brightfire_spritesheet.png
+  artifactKey: Guid(b51c918246da91f4d82849a78e37a01d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/9_brightfire_spritesheet.png using Guid(b51c918246da91f4d82849a78e37a01d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6036fac3f1a9a1bef9c89aa877a0e011') in 0.048281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_27.asset
+  artifactKey: Guid(a822df9401e3a4346b7d25ad001f3f34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_27.asset using Guid(a822df9401e3a4346b7d25ad001f3f34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fc8de5e2f02163f42f03492b2d18f2d3') in 0.019194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player Idle.anim
+  artifactKey: Guid(7c29c1735a3172c4f9b06cfaf4237e82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player Idle.anim using Guid(7c29c1735a3172c4f9b06cfaf4237e82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b05b34607ae656f7124bf1eefcf5359a') in 0.016204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Changelog.txt
+  artifactKey: Guid(b2d0d368c29184a4380701a33c9e9c3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Changelog.txt using Guid(b2d0d368c29184a4380701a33c9e9c3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4b639f9c3665cd7da669689e0fdb0f67') in 0.011629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T4.prefab
+  artifactKey: Guid(4c4e80b50a323dc478f7c84e0b8fdad2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T4.prefab using Guid(4c4e80b50a323dc478f7c84e0b8fdad2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '777ede02be10346bf20eb1b91506b42f') in 0.026459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass J.prefab
+  artifactKey: Guid(dbeab85cbe3b90b41a444794aab794ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass J.prefab using Guid(dbeab85cbe3b90b41a444794aab794ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9ffd7a38854e6b39aa261f9f314d2d04') in 0.021887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_39.asset
+  artifactKey: Guid(c2c61076820fdc942b7eb7dadaa81c33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_39.asset using Guid(c2c61076820fdc942b7eb7dadaa81c33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '30281d5d66d1762f5916f13e0d739e38') in 0.015111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TileMap/oak_woods_tileset_7.asset
+  artifactKey: Guid(b07436a314a2ffd44a6f57a6d84e7bdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_7.asset using Guid(b07436a314a2ffd44a6f57a6d84e7bdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1b9186a7934c83e1cafafabaec408469') in 0.017202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Elements/grass_1.png
+  artifactKey: Guid(088b08eccd151af4ab34ad69e72cd6ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Elements/grass_1.png using Guid(088b08eccd151af4ab34ad69e72cd6ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd094a56dd8acb31e72874af7cd14a8cb') in 0.049714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/esqueleto/Idle/idleling.png
+  artifactKey: Guid(c14ba5c9d51068843a2567db9d72cbf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/esqueleto/Idle/idleling.png using Guid(c14ba5c9d51068843a2567db9d72cbf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '320ea2f490df6298a9b460b2c8954456') in 0.066901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_60.asset
+  artifactKey: Guid(08d60ba0cf5635e49a01bb983cafc310) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_60.asset using Guid(08d60ba0cf5635e49a01bb983cafc310) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f446628ef3c80cb8ef013deefff3495') in 0.025687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Chest Open.prefab
+  artifactKey: Guid(17b0c1ef334d17e4bbb74c4778001705) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Chest Open.prefab using Guid(17b0c1ef334d17e4bbb74c4778001705) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bbe1269fe71ad14869845aa822227348') in 0.043304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Elements/lamp.png
+  artifactKey: Guid(50096b02f92ac874f8aa2e63a9b0f301) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Elements/lamp.png using Guid(50096b02f92ac874f8aa2e63a9b0f301) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a31ec377d6a13143ab08fdda76eb32fe') in 0.075062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair L.prefab
+  artifactKey: Guid(a92434f05fc24a2408687e0356655548) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair L.prefab using Guid(a92434f05fc24a2408687e0356655548) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5a63b4e19d50df1976927ab769ebe07a') in 0.020570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T2.prefab
+  artifactKey: Guid(5b94bf9107369684a8153921f763da38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T2.prefab using Guid(5b94bf9107369684a8153921f763da38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6fbde61b8dcd9f6e07b5d3db6ed6a3b2') in 0.029333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_51.asset
+  artifactKey: Guid(9515df1248ed3324fb9fcd0d56ecc4c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_51.asset using Guid(9515df1248ed3324fb9fcd0d56ecc4c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '26023ca557bec9cd754007f94bc54a5c') in 0.022467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TileMap/oak_woods_tileset_18.asset
+  artifactKey: Guid(d4985c63d68bb0b4bbd01ad311c7331e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_18.asset using Guid(d4985c63d68bb0b4bbd01ad311c7331e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '18c37786425541ade09df00859db3522') in 0.016376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Road Sign E.prefab
+  artifactKey: Guid(b823debd04fd63f4d8e579210fe0ff20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Road Sign E.prefab using Guid(b823debd04fd63f4d8e579210fe0ff20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '45e672939cc397fdee24156f71a5ab39') in 0.024914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Script/TopDownCharacterController.cs
+  artifactKey: Guid(abd146093740c5d43b5909c7913f3109) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Script/TopDownCharacterController.cs using Guid(abd146093740c5d43b5909c7913f3109) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '374d8635b32f7588f0d07f0bb62f5e9f') in 0.015387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_49.asset
+  artifactKey: Guid(a9c1e0495c894bb489bd7aeac0cc5d1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_49.asset using Guid(a9c1e0495c894bb489bd7aeac0cc5d1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e737d5e67967fecb909a6d708af64988') in 0.020725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/ratoncito/Idle/idle.anim
+  artifactKey: Guid(6ee4a320611286a4a98ef4502dfb74a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/ratoncito/Idle/idle.anim using Guid(6ee4a320611286a4a98ef4502dfb74a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b92ee25708da3f3ac6451deaeecd6e8b') in 0.016181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_16.asset
+  artifactKey: Guid(14e532fb845a84844b9d3d8696f1644d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_16.asset using Guid(14e532fb845a84844b9d3d8696f1644d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1bab6e600bcdb5646b44e8e6d960b949') in 0.018978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass D.prefab
+  artifactKey: Guid(fd980c817c63af4458df40a61e529e93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass D.prefab using Guid(fd980c817c63af4458df40a61e529e93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a1f539260a2d86c2b7f2dc1077d3c60') in 0.026031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Chest.prefab
+  artifactKey: Guid(99597c7b4aa47494fb2b6061505735da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Chest.prefab using Guid(99597c7b4aa47494fb2b6061505735da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '525060aa9e973efa80cd6efa8910b3d2') in 0.031000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_8.asset
+  artifactKey: Guid(7ccd71408eb0f4849b8cb86e53281a80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_8.asset using Guid(7ccd71408eb0f4849b8cb86e53281a80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b9ad0e4b68bef500254e08c1682f1deb') in 0.020549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TileMap/oak_woods_tileset_19.asset
+  artifactKey: Guid(70a6f74868d3a4b468fc97c5f9f83398) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/oak_woods_tileset_19.asset using Guid(70a6f74868d3a4b468fc97c5f9f83398) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8673e906307a813ac032563c6c1dc202') in 0.017724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/nature/nature-paltformer-tileset-16x16_38.asset
+  artifactKey: Guid(e60402706b1ce8c4e88db5e84f5049da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nature/nature-paltformer-tileset-16x16_38.asset using Guid(e60402706b1ce8c4e88db5e84f5049da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8eb0b297ffdf2e6ca208ce5bb4aa16b2') in 0.021277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Brick T1.prefab
+  artifactKey: Guid(ebdc6ef285e0bf542bed7e9c1bfb9923) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Brick T1.prefab using Guid(ebdc6ef285e0bf542bed7e9c1bfb9923) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8040bb9e2372e91f820b09bca727c5b') in 0.024947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/esqueleto/Jumping/skellyJump.anim
+  artifactKey: Guid(27bdefa2e4b7b1b429d5cc82e2a82b06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/esqueleto/Jumping/skellyJump.anim using Guid(27bdefa2e4b7b1b429d5cc82e2a82b06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f9dd4337071046ec20a8063dbd6b7da5') in 0.013905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/ratoncito/walking/ratoncito_walking.png
+  artifactKey: Guid(13f5d52be7dd2d54ead7ffae3774ec66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/ratoncito/walking/ratoncito_walking.png using Guid(13f5d52be7dd2d54ead7ffae3774ec66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '010135da0595ccf5bda7c118aa6e2fc1') in 0.052462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Sprites/ratoncito/ratoncito_magic.png
+  artifactKey: Guid(360bd32fb8054004ab39a7c3d404d5df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/ratoncito/ratoncito_magic.png using Guid(360bd32fb8054004ab39a7c3d404d5df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '51162efb0e7ae740699a8f4ce3da100d') in 0.044927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 771.832359 seconds.
+  path: Assets/Animaciones/heart.controller
+  artifactKey: Guid(a378acf510eb87146929c40e6f07ba25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaciones/heart.controller using Guid(a378acf510eb87146929c40e6f07ba25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20dd5123be19208997872eaafe71605') in 0.002881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.521 seconds
+Refreshing native plugins compatible for Editor in 33.63 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.931 seconds
+Domain Reload Profiling: 10445ms
+	BeginReloadAssembly (505ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (32ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (181ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (814ms)
+		LoadAssemblies (990ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (56ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (8933ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4751ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (40ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (650ms)
+			ProcessInitializeOnLoadAttributes (3827ms)
+			ProcessInitializeOnLoadMethodAttributes (161ms)
+			AfterProcessingInitializeOnLoad (38ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (71ms)
+Refreshing native plugins compatible for Editor in 107.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4033 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (217.2 KB). Loaded Objects now: 5190.
+Memory consumption went from 372.3 MB to 372.1 MB.
+Total: 16.339400 ms (FindLiveObjects: 0.750700 ms CreateObjectMapping: 1.185300 ms MarkObjects: 13.914600 ms  DeleteObjects: 0.486300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.064 seconds
+Refreshing native plugins compatible for Editor in 12.65 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.206 seconds
+Domain Reload Profiling: 5261ms
+	BeginReloadAssembly (309ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (553ms)
+		LoadAssemblies (690ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (4209ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2515ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (299ms)
+			ProcessInitializeOnLoadAttributes (1990ms)
+			ProcessInitializeOnLoadMethodAttributes (146ms)
+			AfterProcessingInitializeOnLoad (33ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (72ms)
+Refreshing native plugins compatible for Editor in 104.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4034 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (217.1 KB). Loaded Objects now: 5194.
+Memory consumption went from 374.5 MB to 374.3 MB.
+Total: 12.454900 ms (FindLiveObjects: 2.024500 ms CreateObjectMapping: 0.602200 ms MarkObjects: 9.494300 ms  DeleteObjects: 0.331800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
