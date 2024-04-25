@@ -9,6 +9,8 @@ using UnityEngine;
         [SerializeField] private float jumpPower;
         [SerializeField] private LayerMask groundLayer;
         [SerializeField] private LayerMask obstacleLayer;
+        [SerializeField] public int maxHealth = 5;
+        [SerializeField] int currentHealth;
         private Animator animator;
         private Rigidbody2D body;
         private BoxCollider2D boxCollider;
@@ -20,6 +22,7 @@ using UnityEngine;
             body = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
             boxCollider = GetComponent<BoxCollider2D>();
+            currentHealth = maxHealth;
         }
         
         /* private void FixedUpdate(){
@@ -129,6 +132,12 @@ using UnityEngine;
 
         public bool canAttack(){
             return horizontalInput == 0 && !onWall();
+        }
+
+        public void ChangeHealth (int amount)
+        {
+            currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+            
         }
     }
 
