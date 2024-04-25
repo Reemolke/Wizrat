@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Cainos.PixelArtTopDown_Basic
-{
-    public class TopDownCharacterController : MonoBehaviour
+
+    public class PlayerController : MonoBehaviour
     {
         [SerializeField] private float speed;
         [SerializeField] private float jumpPower;
@@ -70,7 +69,7 @@ namespace Cainos.PixelArtTopDown_Basic
                 }else{
                     body.gravityScale = 1;
                 }
-                if(Input.GetKey(KeyCode.Space)){
+                if(Input.GetKey(KeyCode.Space) && isGrounded() || onWall()){
                     Jump();
                 }
                 
@@ -78,7 +77,7 @@ namespace Cainos.PixelArtTopDown_Basic
                 walljumpCooldown += Time.deltaTime;
             }
                 
-
+            
             animator.SetBool("Running",horizontalInput != 0);
             animator.SetBool("Grounded", grounded);
 
@@ -89,8 +88,9 @@ namespace Cainos.PixelArtTopDown_Basic
             if(isGrounded()){
                 body.velocity = new Vector2(body.velocity.x, jumpPower);
                 body.gravityScale = 1;
+                
                 grounded = false;
-            }else if(onWall() && !isGrounded()){
+            }else if(onWall()){
                 
                 if(horizontalInput == 0){
                     body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 10,4);
@@ -100,11 +100,11 @@ namespace Cainos.PixelArtTopDown_Basic
                     body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 6,6);
                     
                 }
-                grounded = false;
+                
                 walljumpCooldown = 0;
                 
             }
-            
+            animator.SetTrigger("jump");
             
         }
         private void OnCollisionEnter2D(Collision2D collision)
@@ -113,8 +113,8 @@ namespace Cainos.PixelArtTopDown_Basic
             {
                 grounded = true;
                 
-            }else if(collision.gameObject.tag == "Obstacle"){
-                grounded = true; 
+            }else if(collision.gameObject.tag == "Gems"){
+                body.velocity = new Vector2(body.velocity.x, jumpPower);    
             }
         }
         private bool isGrounded(){
@@ -126,5 +126,9 @@ namespace Cainos.PixelArtTopDown_Basic
             RaycastHit2D raycastHit2D = Physics2D.BoxCast(boxCollider.bounds.center,boxCollider.bounds.size,0,new Vector2(transform.localScale.x,0),0.1f, obstacleLayer);
             return raycastHit2D.collider != null;
         }
+
+        public bool canAttack(){
+            return horizontalInput == 0 && !onWall();
+        }
     }
-}
+
