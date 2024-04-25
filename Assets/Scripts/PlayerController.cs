@@ -66,13 +66,13 @@ using UnityEngine;
 
             if(walljumpCooldown > 0.2f){
                 body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
-                if(onWall() && !isGrounded()){
+                if(onWall() && !isGrounded(groundLayer)){
                     body.gravityScale = 0;
                     body.velocity = Vector2.zero;
                 }else{
                     body.gravityScale = 1;
                 }
-                if(Input.GetKey(KeyCode.Space) && isGrounded() || onWall()){
+                if(Input.GetKeyDown(KeyCode.Space)){
                     Jump();
                 }
                 
@@ -88,10 +88,10 @@ using UnityEngine;
         }
         private void Jump(){
             
-            if(isGrounded()){
+            if(isGrounded(groundLayer) || isGrounded(obstacleLayer)){
                 body.velocity = new Vector2(body.velocity.x, jumpPower);
                 body.gravityScale = 1;
-                
+                animator.SetTrigger("jump");
                 grounded = false;
             }else if(onWall()){
                 
@@ -100,19 +100,18 @@ using UnityEngine;
                     transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x),transform.localScale.y,transform.localScale.z);
                     
                 }else{
-                    body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 6,6);
+                    body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 6,6);  
                     
                 }
-                
                 walljumpCooldown = 0;
-                
+                animator.SetTrigger("jump");
             }
-            animator.SetTrigger("jump");
+            
             
         }
         private void OnCollisionEnter2D(Collision2D collision)
         {
-            if (collision.gameObject.tag == "Ground")
+            if (isGrounded(obstacleLayer) || isGrounded(groundLayer))
             {
                 grounded = true;
                 
@@ -120,8 +119,8 @@ using UnityEngine;
                 body.velocity = new Vector2(body.velocity.x, jumpPower);    
             }
         }
-        private bool isGrounded(){
-            RaycastHit2D raycastHit2D = Physics2D.BoxCast(boxCollider.bounds.center,boxCollider.bounds.size,0,Vector2.down,0.1f, groundLayer);
+        private bool isGrounded(LayerMask mask){
+            RaycastHit2D raycastHit2D = Physics2D.BoxCast(boxCollider.bounds.center,boxCollider.bounds.size,0,Vector2.down,0.1f, mask);
             return raycastHit2D.collider != null;
         }
 
