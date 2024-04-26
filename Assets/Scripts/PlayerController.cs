@@ -97,11 +97,13 @@ using UnityEngine;
             }else if(onWall()){
                 
                 if(horizontalInput == 0){
-                    body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 10,4);
+                    
+                    ForceApply(10,4);
                     transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x),transform.localScale.y,transform.localScale.z);
                     
                 }else{
-                    body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 6,6);  
+                    
+                    ForceApply(6,6);
                     
                 }
                 walljumpCooldown = 0;
@@ -117,8 +119,14 @@ using UnityEngine;
             {
                 grounded = true;
                 
-            }else if(collision.gameObject.tag == "Gems"){
+            }
+            if(collision.gameObject.tag == "Gems"){
                 body.velocity = new Vector2(body.velocity.x, jumpPower);    
+            }
+            if(collision.gameObject.tag == "Enemy"){
+                ChangeHealth(-1);
+                Debug.Log(transform.localScale.x);
+                ForceApply(10,4);
             }
         }
         private bool isGrounded(LayerMask mask){
@@ -132,13 +140,17 @@ using UnityEngine;
         }
 
         public bool canAttack(){
-            return horizontalInput == 0 && !onWall();
+            return !onWall();
         }
 
         public void ChangeHealth (int amount)
         {
+            
             currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
             
+        }
+        public void ForceApply(int force, int forceUp){
+            body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * force,forceUp);
         }
     }
 

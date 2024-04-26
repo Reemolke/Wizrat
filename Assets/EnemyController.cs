@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    [SerializeField]private float speed = 5f; // Velocidad de movimiento del enemigo
-    [SerializeField]private float leftLimit = -20f; // Límite izquierdo de movimiento
-    [SerializeField]private float rightLimit = 20f; // Límite derecho de movimiento
-    [SerializeField]private float chaseSpeed = 6f;
+    [SerializeField]private float speed = 3f; // Velocidad de movimiento del enemigo
+    [SerializeField]private float chaseSpeed = 4f;
     [SerializeField]private int health = 3; // Vida del enemigo
     private Rigidbody2D body;
-    private bool isChasing = false; // Estado de persecución del enemigo
+    
     private Transform player;
-    [SerializeField] private float detectionRadius = 5f;
+    [SerializeField] private float detectionRadius = 10f;
     private int direction = 1; // Dirección inicial del enemigo (1: derecha, -1: izquierda)
     void Awake(){
         body = GetComponent<Rigidbody2D>();
@@ -25,7 +23,7 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(player);
+        
         // Si el enemigo está en estado de persecución, perseguir al jugador
         if (isOnRadius())
         {
@@ -44,22 +42,15 @@ public class EnemyController : MonoBehaviour
     void ChasePlayer()
     {
        
-        if(isOnRadius()){
-            transform.position = Vector2.MoveTowards(transform.position, player.position, chaseSpeed * Time.deltaTime);
+        
+        transform.position = Vector2.MoveTowards(transform.position, player.position, chaseSpeed * Time.deltaTime);
             
-        }
-        else // Si el jugador está fuera del radio de detección, dejar de perseguirlo
-        {
-            isChasing = false;
-        }
+        
+        
     }
     bool isOnRadius(){
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-        if(distanceToPlayer <= detectionRadius){
-            isChasing = true;
-        }else{
-            isChasing = false;
-        }
+        
         return distanceToPlayer <= detectionRadius;
     }
     // Cambiar la dirección del enemigo
@@ -72,19 +63,18 @@ public class EnemyController : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         // Verificar si la colisión es con el ataque del jugador
+        
         if (other.CompareTag("Attack"))
         {
             // Restar vida al enemigo
-            body.velocity = new Vector2(-Mathf.Sign(-transform.localScale.x) * 10,2);
+            ForceApply(10,2,-player.localScale.x);
             TakeDamage();
         }
-        isChasing = true;
+        
     }
-    void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            isChasing = false; // Desactivar el estado de persecución
+    void OnCollisionEnter2D(Collision2D other){
+        if (other.gameObject.CompareTag("Player")){
+            ForceApply(10,2,-player.localScale.x);
         }
     }
 
@@ -99,6 +89,10 @@ public class EnemyController : MonoBehaviour
             // Destruir el enemigo si se quedó sin vida
             Destroy(gameObject);
         }
+    }
+    public void ForceApply(int force, int forceUp,float dir){
+
+        body.velocity = new Vector2(-Mathf.Sign(dir) * force,forceUp);
     }
 }
 

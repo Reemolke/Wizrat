@@ -1027,8 +1027,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  leftLimit: -4
-  rightLimit: 4
   chaseSpeed: 7
   health: 3
   detectionRadius: 10
@@ -1214,9 +1212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  leftLimit: -20
-  rightLimit: 20
-  chaseSpeed: 7
+  chaseSpeed: 4
   health: 3
   detectionRadius: 10
 --- !u!1 &1439948217
@@ -3557,9 +3553,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6282113732435861892, guid: 94f8c99226b87e242adba2fd4577f090, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6321082797591266644, guid: 94f8c99226b87e242adba2fd4577f090, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 6759736686578943926, guid: 94f8c99226b87e242adba2fd4577f090, type: 3}
       propertyPath: m_Name
       value: ratoncito
+      objectReference: {fileID: 0}
+    - target: {fileID: 6759736686578943926, guid: 94f8c99226b87e242adba2fd4577f090, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
