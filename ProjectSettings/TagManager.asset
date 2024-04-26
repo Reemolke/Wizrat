@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - Gems
   - Attack
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - UI
   - obstacleLayer
   - pickableLayer
-  - 
+  - enemyLayer
   - 
   - 
   - 
