@@ -69,6 +69,7 @@ using UnityEngine;
                 if(onWall() && !isGrounded(groundLayer)){
                     body.gravityScale = 0;
                     body.velocity = Vector2.zero;
+                    grounded = true;
                 }else{
                     body.gravityScale = 1;
                 }
@@ -104,6 +105,7 @@ using UnityEngine;
                     
                 }
                 walljumpCooldown = 0;
+                grounded = false;
                 animator.SetTrigger("jump");
             }
             
