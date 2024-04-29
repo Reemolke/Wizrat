@@ -122,11 +122,12 @@ using UnityEngine;
             }
             if(collision.gameObject.tag == "Gems"){
                 body.velocity = new Vector2(body.velocity.x, jumpPower);    
+                
             }
             if(collision.gameObject.tag == "Enemy"){
                 ChangeHealth(-1);
-                Debug.Log(transform.localScale.x);
                 ForceApply(10,4);
+                
             }
         }
         private bool isGrounded(LayerMask mask){

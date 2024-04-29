@@ -285,6 +285,16 @@ Tilemap:
   m_GameObject: {fileID: 196981620}
   m_Enabled: 1
   m_Tiles:
+  - first: {x: 8, y: -5, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 7
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 28, y: -5, z: 0}
     second:
       serializedVersion: 2
@@ -471,8 +481,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: a1c2a7cc984567546beb033eca49b3b7, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 21645d0d7e309ba418bad6ca08b81bfb, type: 2}
   - m_RefCount: 1
@@ -490,8 +500,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 1143955692, guid: 45f08bdbc5518334c878282675c1e642, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1511769713, guid: 45f08bdbc5518334c878282675c1e642, type: 3}
   - m_RefCount: 1
@@ -503,7 +513,7 @@ Tilemap:
   - m_RefCount: 5
     m_Data: {fileID: 2043828848, guid: 45f08bdbc5518334c878282675c1e642, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 17
+  - m_RefCount: 18
     m_Data:
       e00: 1
       e01: 0
@@ -522,7 +532,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 17
+  - m_RefCount: 18
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -611,6 +621,14 @@ CompositeCollider2D:
         Y: -50000000
       - X: 380000000
         Y: -50000000
+    - - X: 90000000
+        Y: -40000000
+      - X: 80000000
+        Y: -40000000
+      - X: 80000000
+        Y: -50000000
+      - X: 90000000
+        Y: -50000000
   m_CompositePaths:
     m_Paths:
     - - {x: 28.874989, y: -5}
@@ -625,6 +643,10 @@ CompositeCollider2D:
       - {x: 37.999973, y: 2}
       - {x: 37, y: 1.9999708}
       - {x: 37.00003, y: -5}
+    - - {x: 8.99997, y: -5}
+      - {x: 8.99997, y: -4}
+      - {x: 8, y: -4.000029}
+      - {x: 8.00003, y: -5}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
   m_UseDelaunayMesh: 0
@@ -762,8 +784,16 @@ PrefabInstance:
       value: manaSword (3)
       objectReference: {fileID: 0}
     - target: {fileID: 8259442817162405210, guid: 7dea73977574ffd47bc9ca4d97cedb4c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259442817162405210, guid: 7dea73977574ffd47bc9ca4d97cedb4c, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259442817162405210, guid: 7dea73977574ffd47bc9ca4d97cedb4c, type: 3}
+      propertyPath: m_TagString
+      value: Attack
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -855,6 +885,10 @@ PrefabInstance:
     - target: {fileID: 8259442817162405210, guid: 7dea73977574ffd47bc9ca4d97cedb4c, type: 3}
       propertyPath: m_Name
       value: manaSword (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259442817162405210, guid: 7dea73977574ffd47bc9ca4d97cedb4c, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8259442817162405210, guid: 7dea73977574ffd47bc9ca4d97cedb4c, type: 3}
       propertyPath: m_IsActive
@@ -986,7 +1020,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1101355739}
-  - component: {fileID: 1101355740}
   m_Layer: 0
   m_Name: MageHolder
   m_TagString: Untagged
@@ -1014,22 +1047,6 @@ Transform:
   - {fileID: 830591458}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1101355740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101355738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aced2537684864c4c8c913e144cdd4af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
-  chaseSpeed: 7
-  health: 3
-  detectionRadius: 10
 --- !u!1 &1110681047 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8259442817162405210, guid: 7dea73977574ffd47bc9ca4d97cedb4c, type: 3}
@@ -1053,6 +1070,8 @@ GameObject:
   - component: {fileID: 1175440008}
   - component: {fileID: 1175440007}
   - component: {fileID: 1175440011}
+  - component: {fileID: 1175440013}
+  - component: {fileID: 1175440012}
   m_Layer: 8
   m_Name: Idle (36x30)_0
   m_TagString: Enemy
@@ -1214,7 +1233,48 @@ MonoBehaviour:
   speed: 3
   chaseSpeed: 4
   health: 3
+  player: {fileID: 12880226}
   detectionRadius: 10
+--- !u!111 &1175440012
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175440006}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 6e58c7d8d45975443a5d899b7e7c3e64, type: 2}
+  - {fileID: 7400000, guid: 8fc46c5e10cdf01478b6d0583ac6c7ff, type: 2}
+  - {fileID: 7400000, guid: 520c724099e974d49b4254a7b9732e43, type: 2}
+  - {fileID: 7400000, guid: 179ad7f0f196547409be569fd830ca37, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!95 &1175440013
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175440006}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f9259a824ed178744a6be4152f561ef7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1439948217
 GameObject:
   m_ObjectHideFlags: 0
@@ -3203,8 +3263,16 @@ PrefabInstance:
       value: manaSword (4)
       objectReference: {fileID: 0}
     - target: {fileID: 8259442817162405210, guid: 7dea73977574ffd47bc9ca4d97cedb4c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259442817162405210, guid: 7dea73977574ffd47bc9ca4d97cedb4c, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259442817162405210, guid: 7dea73977574ffd47bc9ca4d97cedb4c, type: 3}
+      propertyPath: m_TagString
+      value: Attack
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3298,6 +3366,10 @@ PrefabInstance:
       value: manaSword (2)
       objectReference: {fileID: 0}
     - target: {fileID: 8259442817162405210, guid: 7dea73977574ffd47bc9ca4d97cedb4c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259442817162405210, guid: 7dea73977574ffd47bc9ca4d97cedb4c, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -3320,7 +3392,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5561814421649738995, guid: f5d212da017bb81449166f74cfc9a985, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.081175
+      value: 5.48
       objectReference: {fileID: 0}
     - target: {fileID: 5561814421649738995, guid: f5d212da017bb81449166f74cfc9a985, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3362,6 +3434,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: nature-paltformer-tileset-16x16_53
       objectReference: {fileID: 0}
+    - target: {fileID: 7296632331045161995, guid: f5d212da017bb81449166f74cfc9a985, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3375,9 +3451,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1101355739}
     m_Modifications:
+    - target: {fileID: 4327404940631510319, guid: 3684eeedf291ffc44806e3e8eebb8d66, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 6603869121237343875, guid: 3684eeedf291ffc44806e3e8eebb8d66, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6603869121237343875, guid: 3684eeedf291ffc44806e3e8eebb8d66, type: 3}
+      propertyPath: m_IncludeLayers.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7663310390893440860, guid: 3684eeedf291ffc44806e3e8eebb8d66, type: 3}
       propertyPath: m_Name
       value: manaSword
+      objectReference: {fileID: 0}
+    - target: {fileID: 7663310390893440860, guid: 3684eeedf291ffc44806e3e8eebb8d66, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7663310390893440860, guid: 3684eeedf291ffc44806e3e8eebb8d66, type: 3}
       propertyPath: m_TagString
@@ -3438,11 +3530,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2943034384533097878, guid: 06c5563c245aca34598a3d6954b22149, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.48
+      value: 28.48
       objectReference: {fileID: 0}
     - target: {fileID: 2943034384533097878, guid: 06c5563c245aca34598a3d6954b22149, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.85
+      value: 8.18
       objectReference: {fileID: 0}
     - target: {fileID: 2943034384533097878, guid: 06c5563c245aca34598a3d6954b22149, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3554,8 +3646,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6282113732435861892, guid: 94f8c99226b87e242adba2fd4577f090, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 6282113732435861892, guid: 94f8c99226b87e242adba2fd4577f090, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.5
+      value: 1.54
       objectReference: {fileID: 0}
     - target: {fileID: 6321082797591266644, guid: 94f8c99226b87e242adba2fd4577f090, type: 3}
       propertyPath: m_Layer

@@ -5,16 +5,17 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     [SerializeField]private float speed = 3f; // Velocidad de movimiento del enemigo
-    [SerializeField]private float chaseSpeed = 4f;
+    [SerializeField]private float chaseSpeed = 5f;
     [SerializeField]private int health = 3; // Vida del enemigo
     private Rigidbody2D body;
-    
-    private Transform player;
+    private Animator anim;
+    [SerializeField] private Transform player;
     [SerializeField] private float detectionRadius = 10f;
     private int direction = 1; // Dirección inicial del enemigo (1: derecha, -1: izquierda)
     void Awake(){
         body = GetComponent<Rigidbody2D>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -25,39 +26,54 @@ public class EnemyController : MonoBehaviour
     {
         
         // Si el enemigo está en estado de persecución, perseguir al jugador
-        if (isOnRadius())
+        if (IsOnRadius())
         {
+            
             ChasePlayer();
         }
         else // Si no, realizar la patrulla normal
         {
+            
             Patrol();
+            
         }
+        anim.SetBool("Chasing",IsOnRadius());
     }
     void Patrol()
     {
-        transform.Translate(Vector2.right * speed * Time.deltaTime);
+        anim.SetBool("OnPatrol",true);
+        transform.Translate(new Vector2(direction,0) * speed * Time.deltaTime);
+        transform.localScale = new Vector3(-direction,1,1);
         
+    }
+    void ChangeDirection(){
+        direction *= -1;
     }
     void ChasePlayer()
     {
        
         
         transform.position = Vector2.MoveTowards(transform.position, player.position, chaseSpeed * Time.deltaTime);
-            
+        Vector3 direccion = player.position-transform.position;
+        if (direccion.x > 0)
+        {
+            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+        }
+        else if (direccion.x < 0)
+        {
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+        }
+        
         
         
     }
-    bool isOnRadius(){
+    bool IsOnRadius(){
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
         
         return distanceToPlayer <= detectionRadius;
     }
     // Cambiar la dirección del enemigo
-    void ChangeDirection()
-    {
-        direction *= -1; // Invertir la dirección (de derecha a izquierda o viceversa)
-    }
+    
 
     // Detectar colisión con el ataque del jugador
     void OnTriggerEnter2D(Collider2D other)
@@ -67,14 +83,20 @@ public class EnemyController : MonoBehaviour
         if (other.CompareTag("Attack"))
         {
             // Restar vida al enemigo
-            ForceApply(10,2,-player.localScale.x);
+            ForceApply(8,2,-player.localScale.x);
+            anim.SetTrigger("hit");
             TakeDamage();
         }
         
     }
     void OnCollisionEnter2D(Collision2D other){
         if (other.gameObject.CompareTag("Player")){
-            ForceApply(10,2,-player.localScale.x);
+            ForceApply(8,2,-player.localScale.x);
+            
+
+            
+        }else if(other.gameObject.CompareTag("Obstacle")){
+            ChangeDirection();
         }
     }
 
