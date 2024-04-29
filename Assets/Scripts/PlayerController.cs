@@ -15,6 +15,7 @@ using UnityEngine;
         private Rigidbody2D body;
         private BoxCollider2D boxCollider;
         private float walljumpCooldown;
+        private bool block;
         public bool grounded;
         public float horizontalInput;
         private void Awake(){
@@ -64,7 +65,7 @@ using UnityEngine;
                 transform.localScale = new Vector3(-1,1,1);
             }
 
-            if(walljumpCooldown > 0.2f){
+            if(walljumpCooldown > 0.2f && !block){
                 body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
                 if(onWall() && !isGrounded(groundLayer)){
                     body.gravityScale = 0;
@@ -73,38 +74,43 @@ using UnityEngine;
                 }else{
                     body.gravityScale = 1;
                 }
-                if(Input.GetKeyDown(KeyCode.Space)){
+                if(Input.GetKeyDown(KeyCode.Space) && !block){
                     Jump();
                 }
                 
             }else{
                 walljumpCooldown += Time.deltaTime;
             }
+            if(Input.GetKeyDown(KeyCode.E) && block == false && isGrounded(groundLayer)){
                 
+                block = true;
+            }else if(Input.GetKeyUp(KeyCode.E)){
+                
+                block = false;
+            }
             
             animator.SetBool("Running",horizontalInput != 0);
             animator.SetBool("Grounded", grounded);
-
+            animator.SetBool("shield",block);
             
         }
         private void Jump(){
             
             if(isGrounded(groundLayer) || isGrounded(obstacleLayer)){
+                
                 body.velocity = new Vector2(body.velocity.x, jumpPower);
                 body.gravityScale = 1;
-                animator.SetTrigger("jump");
-                grounded = false;
-            }else if(onWall()){
-                
-                if(horizontalInput == 0){
                     
+                grounded=false;
+                animator.SetTrigger("jump");
+                
+                
+            }else if(onWall()){
+                if(horizontalInput == 0){
                     ForceApply(10,4);
                     transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x),transform.localScale.y,transform.localScale.z);
-                    
                 }else{
-                    
                     ForceApply(6,6);
-                    
                 }
                 walljumpCooldown = 0;
                 grounded = false;
@@ -122,11 +128,14 @@ using UnityEngine;
             }
             if(collision.gameObject.tag == "Gems"){
                 body.velocity = new Vector2(body.velocity.x, jumpPower);    
-                
             }
             if(collision.gameObject.tag == "Enemy"){
-                ChangeHealth(-1);
-                ForceApply(10,4);
+                if(block){
+                    block= false;
+                }else{
+                    ChangeHealth(-1);
+                    ForceApply(10,4);
+                }
                 
             }
         }
@@ -141,13 +150,16 @@ using UnityEngine;
         }
 
         public bool canAttack(){
-            return !onWall();
+            return !onWall() && !block;
         }
 
         public void ChangeHealth (int amount)
         {
             
             currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+            if(amount < 0){
+                animator.SetTrigger("hit");
+            }
             
         }
         public void ForceApply(int force, int forceUp){
