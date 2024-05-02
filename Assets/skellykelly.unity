@@ -966,7 +966,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7
+  orthographic size: 5.655581
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3645,9 +3645,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2892498998307445766, guid: 94f8c99226b87e242adba2fd4577f090, type: 3}
+      propertyPath: shieldCooldown
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3304018384589009680, guid: 94f8c99226b87e242adba2fd4577f090, type: 3}
       propertyPath: m_Animations.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3304018384589009680, guid: 94f8c99226b87e242adba2fd4577f090, type: 3}
       propertyPath: m_Animations.Array.data[4]
@@ -3657,6 +3661,10 @@ PrefabInstance:
       propertyPath: m_Animations.Array.data[5]
       value: 
       objectReference: {fileID: 7400000, guid: 49f41645eb865674abda42693be1da1b, type: 2}
+    - target: {fileID: 3304018384589009680, guid: 94f8c99226b87e242adba2fd4577f090, type: 3}
+      propertyPath: m_Animations.Array.data[6]
+      value: 
+      objectReference: {fileID: 7400000, guid: 9a4f87610e57e344292b7c3e341ea373, type: 2}
     - target: {fileID: 6282113732435861892, guid: 94f8c99226b87e242adba2fd4577f090, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.84

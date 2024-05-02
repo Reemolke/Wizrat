@@ -68,9 +68,12 @@ public class EnemyController : MonoBehaviour
         
     }
     bool IsOnRadius(){
-        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-        
-        return distanceToPlayer <= detectionRadius;
+        if(player == null){
+            return false;
+        }else{
+            float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+            return distanceToPlayer <= detectionRadius;
+        }
     }
     // Cambiar la dirección del enemigo
     

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 
@@ -11,6 +12,8 @@ using UnityEngine;
         [SerializeField] private LayerMask obstacleLayer;
         [SerializeField] public int maxHealth = 5;
         [SerializeField] int currentHealth;
+        [SerializeField] float shieldCooldown = 10f;
+        [SerializeField] float shieldCooldownTimer;
         private Animator animator;
         private Rigidbody2D body;
         private BoxCollider2D boxCollider;
@@ -81,14 +84,14 @@ using UnityEngine;
             }else{
                 walljumpCooldown += Time.deltaTime;
             }
-            if(Input.GetKeyDown(KeyCode.E) && block == false && isGrounded(groundLayer)){
-                
+            if(Input.GetKeyDown(KeyCode.E) && block == false && isGrounded(groundLayer) && shieldCooldown < shieldCooldownTimer){
+                shieldCooldownTimer =0;
                 block = true;
             }else if(Input.GetKeyUp(KeyCode.E)){
                 
                 block = false;
             }
-            
+            shieldCooldownTimer += Time.deltaTime;
             animator.SetBool("Running",horizontalInput != 0);
             animator.SetBool("Grounded", grounded);
             animator.SetBool("shield",block);
@@ -135,6 +138,11 @@ using UnityEngine;
                 }else{
                     ChangeHealth(-1);
                     ForceApply(10,4);
+                    if(currentHealth <= 0){
+                        animator.SetTrigger("die");
+                        boxCollider.enabled = false;
+                        body.simulated = false;
+                    }
                 }
                 
             }
@@ -158,12 +166,16 @@ using UnityEngine;
             
             currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
             if(amount < 0){
+                
                 animator.SetTrigger("hit");
             }
             
         }
         public void ForceApply(int force, int forceUp){
             body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * force,forceUp);
+        }
+        public void Die(){
+            Destroy(gameObject);
         }
     }
 
