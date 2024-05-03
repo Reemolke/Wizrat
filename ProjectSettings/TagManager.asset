@@ -20,8 +20,8 @@ TagManager:
   - pickableLayer
   - enemyLayer
   - playerLayer
-  - 
-  - 
+  - attackLayer
+  - background
   - 
   - 
   - 

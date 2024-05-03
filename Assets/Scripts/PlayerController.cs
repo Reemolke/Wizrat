@@ -129,9 +129,6 @@ using UnityEngine;
                 grounded = true;
                 
             }
-            if(collision.gameObject.tag == "Gems"){
-                body.velocity = new Vector2(body.velocity.x, jumpPower);    
-            }
             if(collision.gameObject.tag == "Enemy"){
                 if(block){
                     block= false;
@@ -144,7 +141,14 @@ using UnityEngine;
                         body.simulated = false;
                     }
                 }
-                
+            
+            }
+        }
+
+        public void OnTriggerEnter2D(Collider2D other)
+        {
+            if(other.gameObject.tag == "Gems"){
+                speed +=2;
             }
         }
         private bool isGrounded(LayerMask mask){
@@ -158,7 +162,7 @@ using UnityEngine;
         }
 
         public bool canAttack(){
-            return !onWall() && !block;
+            return !onWall() && !block && horizontalInput ==0;
         }
 
         public void ChangeHealth (int amount)

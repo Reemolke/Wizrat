@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/skellykelly.unity
+    path: Assets/Scenes/Wizrat.unity
     guid: 7563244b3cccd00449d9cec58d561994
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: ee902ef242139ed40aaf3e0e97df1dc0
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

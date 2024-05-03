@@ -1,11 +1,12 @@
 
 using UnityEngine;
 
-public class HealthCollectible : MonoBehaviour
+
+public class CoinCollectible : MonoBehaviour
 {
     // Start is called before the first frame update
     
-    public PlayerController playerController;
+    
     void Start()
     {
        
@@ -20,8 +21,12 @@ public class HealthCollectible : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D other)
     {
         
+        ScoreManager.scoreManager.raiseScore(1);
         
-        playerController.ChangeHealth(1);
         Destroy(gameObject);
+        
+        
+
+
     }
 }
