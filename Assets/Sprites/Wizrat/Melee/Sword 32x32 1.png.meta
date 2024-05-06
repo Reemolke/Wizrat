@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: 13f5d52be7dd2d54ead7ffae3774ec66
+guid: 17f7011a8d0800f40baf4da04923322d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -71,20 +71,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -107,7 +94,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Server
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -123,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ratoncito_walking_0
+      name: Sword 32x32 1_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 18
-        width: 18
-        height: 30
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 903dddf0916181d4faa0b1a1b68d7860
-      internalID: -1002626596
+      spriteID: bdaf24b91db75c946bb79e900ba877bd
+      internalID: 1941688048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratoncito_walking_1
+      name: Sword 32x32 1_1
       rect:
         serializedVersion: 2
-        x: 88
-        y: 18
-        width: 18
-        height: 30
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb79174ed8298be4d9ca641b2df122b4
-      internalID: -478148807
+      spriteID: b6321b47fd4e89645b39eb1336ec34fc
+      internalID: 1639354594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratoncito_walking_2
+      name: Sword 32x32 1_2
       rect:
         serializedVersion: 2
-        x: 152
-        y: 18
-        width: 18
-        height: 30
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5d36b49f22274c4b816f5b80bf91b27
-      internalID: -1646012426
+      spriteID: e70263a867f792944a861165a6b6054a
+      internalID: 2035008654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratoncito_walking_3
+      name: Sword 32x32 1_3
       rect:
         serializedVersion: 2
-        x: 216
-        y: 18
-        width: 18
-        height: 30
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +187,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: def7c47df106a9a4b9b1cfe5dd7464c0
-      internalID: -595555556
+      spriteID: a2cc207acf705bc4c8c9f78f22ed9f9a
+      internalID: -1090868896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword 32x32 1_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ca0c59ee252dd44a80833424f4b36c
+      internalID: 1638122025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword 32x32 1_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b58c6164225144980d66cb5688c6cd
+      internalID: 869304266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword 32x32 1_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea23190e66d34c846bb60086a64f9968
+      internalID: -1931082268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword 32x32 1_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc260d906eb0500469d7246a2e8a9b17
+      internalID: -1791600343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword 32x32 1_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b966ffde13b3d94987f30ba4a7f0cc1
+      internalID: 1549226906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword 32x32 1_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd625d0cdaad93d41a6d77a189bc2a60
+      internalID: 878141988
       vertices: []
       indices: 
       edges: []
@@ -217,10 +330,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ratoncito_walking_0: -1002626596
-      ratoncito_walking_1: -478148807
-      ratoncito_walking_2: -1646012426
-      ratoncito_walking_3: -595555556
+      Sword 32x32 1_0: 1941688048
+      Sword 32x32 1_1: 1639354594
+      Sword 32x32 1_2: 2035008654
+      Sword 32x32 1_3: -1090868896
+      Sword 32x32 1_4: 1638122025
+      Sword 32x32 1_5: 869304266
+      Sword 32x32 1_6: -1931082268
+      Sword 32x32 1_7: -1791600343
+      Sword 32x32 1_8: 1549226906
+      Sword 32x32 1_9: 878141988
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: 2cd0de134e4e187498f7378c78cbfde6
+guid: a461d98b709f4464180bff2936bba8c7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,6 +69,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -93,43 +106,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Server
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ratoncito_specialmove_0
+      name: PlayerTemplateRunning_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 16
-        width: 20
-        height: 32
+        x: 4
+        y: 2
+        width: 16
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c8e0165ce8e0dc43b1edb8807609ea3
-      internalID: -1652841549
+      spriteID: c1bcb862326660b4784b32eb2f4c4d5a
+      internalID: 888632518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratoncito_specialmove_1
+      name: PlayerTemplateRunning_1
       rect:
         serializedVersion: 2
-        x: 84
-        y: 16
-        width: 22
-        height: 32
+        x: 36
+        y: 2
+        width: 16
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3be2d6f50fe517840ab4f710167cf493
-      internalID: 651579326
+      spriteID: fdedeb76a8d98dc44b7ca959d3edfce0
+      internalID: -1277081792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratoncito_specialmove_2
+      name: PlayerTemplateRunning_2
       rect:
         serializedVersion: 2
-        x: 150
-        y: 16
-        width: 22
-        height: 32
+        x: 68
+        y: 2
+        width: 16
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fbac4474b0677a4fa23cab7f0da8cc6
-      internalID: -1036775523
+      spriteID: 13905429bb61b3e4c99dd1f338f7ef69
+      internalID: -2059408023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratoncito_specialmove_3
+      name: PlayerTemplateRunning_3
       rect:
         serializedVersion: 2
-        x: 216
-        y: 16
-        width: 24
-        height: 32
+        x: 100
+        y: 2
+        width: 16
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e6c03535026ccf42bd9b1a9125a92d7
-      internalID: 10227727
+      spriteID: 98ad39a3a15d6444498272741e6c6d0d
+      internalID: -1614263254
       vertices: []
       indices: 
       edges: []
@@ -217,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ratoncito_specialmove_0: -1652841549
-      ratoncito_specialmove_1: 651579326
-      ratoncito_specialmove_2: -1036775523
-      ratoncito_specialmove_3: 10227727
+      PlayerTemplateRunning_0: 888632518
+      PlayerTemplateRunning_1: -1277081792
+      PlayerTemplateRunning_2: -2059408023
+      PlayerTemplateRunning_3: -1614263254
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
