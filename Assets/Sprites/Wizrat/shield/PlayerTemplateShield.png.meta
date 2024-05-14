@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 34fae58417e5c744a8391c4c2af03a55
+guid: 32602e2c62327ff49b43d2ab4a8d6428
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -71,7 +71,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -93,17 +93,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ratoncito_shield_0
+      name: PlayerTemplateShield_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 18
-        width: 20
-        height: 28
+        x: 4
+        y: 2
+        width: 17
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cea6d782e2ff4ce46b21450f29c04941
-      internalID: 718023422
+      spriteID: 04003f57b34ca5a45b8f460087313e47
+      internalID: 74436602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratoncito_shield_1
+      name: PlayerTemplateShield_1
       rect:
         serializedVersion: 2
-        x: 88
-        y: 18
-        width: 20
-        height: 28
+        x: 36
+        y: 2
+        width: 19
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd1d555cfb8cfc2479ed6e2aa4e9af27
-      internalID: 1407234255
+      spriteID: 85da7369d6e8fa043997a3ba84203d4b
+      internalID: 1690273618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratoncito_shield_2
+      name: PlayerTemplateShield_2
       rect:
         serializedVersion: 2
-        x: 152
-        y: 18
-        width: 20
-        height: 28
+        x: 68
+        y: 2
+        width: 21
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 256072705131bb745ac57a5ed340d2ff
-      internalID: 1433167139
+      spriteID: 9c01b5eb517533543915e968b64f3468
+      internalID: -1547964676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratoncito_shield_3
+      name: PlayerTemplateShield_3
       rect:
         serializedVersion: 2
-        x: 216
-        y: 18
+        x: 100
+        y: 1
         width: 22
-        height: 28
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,92 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42ee2ff160f1c6e438610f370882643b
-      internalID: -253965291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ratoncito_shield_4
-      rect:
-        serializedVersion: 2
-        x: 278
-        y: 18
-        width: 26
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99e1296d4a389ce41adf1301ebbe7d5c
-      internalID: 453269858
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ratoncito_shield_5
-      rect:
-        serializedVersion: 2
-        x: 342
-        y: 18
-        width: 26
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94024c799774db04cb648cf4fe14fa82
-      internalID: -309533681
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ratoncito_shield_6
-      rect:
-        serializedVersion: 2
-        x: 402
-        y: 16
-        width: 34
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c172f316898cee48987ac88dbaaa6b1
-      internalID: -222596266
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ratoncito_shield_7
-      rect:
-        serializedVersion: 2
-        x: 467
-        y: 14
-        width: 31
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f889d3e5ac6e9124a9e32685ec6b5c3c
-      internalID: -1147303699
+      spriteID: 45e564ebc9df6c444894a6d6ede3e8d0
+      internalID: -1410482030
       vertices: []
       indices: 
       edges: []
@@ -275,14 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ratoncito_shield_0: 718023422
-      ratoncito_shield_1: 1407234255
-      ratoncito_shield_2: 1433167139
-      ratoncito_shield_3: -253965291
-      ratoncito_shield_4: 453269858
-      ratoncito_shield_5: -309533681
-      ratoncito_shield_6: -222596266
-      ratoncito_shield_7: -1147303699
+      PlayerTemplateShield_0: 74436602
+      PlayerTemplateShield_1: 1690273618
+      PlayerTemplateShield_2: -1547964676
+      PlayerTemplateShield_3: -1410482030
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

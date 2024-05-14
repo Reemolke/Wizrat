@@ -91,6 +91,11 @@ using UnityEngine;
                 
                 block = false;
             }
+            if(currentHealth <= 0){
+                    animator.SetTrigger("die");
+                    body.simulated = false;
+                    boxCollider.enabled= false;
+                }
             shieldCooldownTimer += Time.deltaTime;
             animator.SetBool("Running",horizontalInput != 0);
             animator.SetBool("Grounded", grounded);
@@ -135,11 +140,7 @@ using UnityEngine;
                 }else{
                     ChangeHealth(-1);
                     ForceApply(10,4);
-                    if(currentHealth <= 0){
-                        animator.SetTrigger("die");
-                        boxCollider.enabled = false;
-                        body.simulated = false;
-                    }
+                    
                 }
             
             }
@@ -179,7 +180,8 @@ using UnityEngine;
             body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * force,forceUp);
         }
         public void Die(){
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
+
     }
 
