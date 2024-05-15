@@ -5,10 +5,10 @@ public class HealthCollectible : MonoBehaviour
 {
     // Start is called before the first frame update
     
-    public PlayerController playerController;
+    private PlayerController playerController;
     void Start()
     {
-       
+       playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
     }
 
     // Update is called once per frame
@@ -20,8 +20,10 @@ public class HealthCollectible : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D other)
     {
         
+        if(other.gameObject.tag == "Player"){
+            playerController.ChangeHealth(1);
+            Destroy(gameObject);
+        }
         
-        playerController.ChangeHealth(1);
-        Destroy(gameObject);
     }
 }

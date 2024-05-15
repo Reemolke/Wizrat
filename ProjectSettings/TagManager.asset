@@ -9,6 +9,7 @@ TagManager:
   - Gems
   - Attack
   - Enemy
+  - Finishlane
   layers:
   - Default
   - TransparentFX
