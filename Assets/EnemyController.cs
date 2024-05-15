@@ -9,12 +9,12 @@ public class EnemyController : MonoBehaviour
     [SerializeField]private int health = 3; // Vida del enemigo
     private Rigidbody2D body;
     private Animator anim;
-    [SerializeField] private Transform player;
+    [SerializeField] private GameObject player;
     [SerializeField] private float detectionRadius = 10f;
     private int direction = 1; // Dirección inicial del enemigo (1: derecha, -1: izquierda)
     void Awake(){
         body = GetComponent<Rigidbody2D>();
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.FindGameObjectWithTag("Player");
         anim = GetComponent<Animator>();
     }
 
@@ -53,8 +53,8 @@ public class EnemyController : MonoBehaviour
     {
        
         
-        transform.position = Vector2.MoveTowards(transform.position, player.position, chaseSpeed * Time.deltaTime);
-        Vector3 direccion = player.position-transform.position;
+        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, chaseSpeed * Time.deltaTime);
+        Vector3 direccion = player.transform.position-transform.position;
         if (direccion.x > 0)
         {
             transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
@@ -71,7 +71,7 @@ public class EnemyController : MonoBehaviour
         if(player == null){
             return false;
         }else{
-            float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+            float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
             return distanceToPlayer <= detectionRadius;
         }
     }
@@ -86,7 +86,7 @@ public class EnemyController : MonoBehaviour
         if (other.CompareTag("Attack"))
         {
             // Restar vida al enemigo
-            ForceApply(8,2,-player.localScale.x);
+            ForceApply(8,2,-player.transform.localScale.x);
             anim.SetTrigger("hit");
             TakeDamage();
         }
@@ -94,8 +94,8 @@ public class EnemyController : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D other){
         if (other.gameObject.CompareTag("Player")){
-            ForceApply(8,2,-player.localScale.x);
-            
+            ForceApply(8,2,-player.transform.localScale.x);
+            player.GetComponent<PlayerController>().ChangeHealth(-1);
 
             
         }else if(other.gameObject.CompareTag("Obstacle")){

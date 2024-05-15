@@ -23,6 +23,7 @@ using UnityEngine;
         public float horizontalInput;
         private void Awake(){
             speed = 5f;
+            shieldCooldownTimer =10f;
             body = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
             boxCollider = GetComponent<BoxCollider2D>();
@@ -135,13 +136,9 @@ using UnityEngine;
                 
             }
             if(collision.gameObject.tag == "Enemy"){
-                if(block){
-                    block= false;
-                }else{
-                    ChangeHealth(-1);
-                    ForceApply(10,4);
-                    
-                }
+                
+                ForceApply(10,4);
+                
             
             }
         }
@@ -150,6 +147,8 @@ using UnityEngine;
         {
             if(other.gameObject.tag == "Gems"){
                 speed +=2;
+            }else if(other.gameObject.tag == "Enemy"){
+                ForceApply(6,6);
             }
         }
         private bool isGrounded(LayerMask mask){
@@ -168,12 +167,16 @@ using UnityEngine;
 
         public void ChangeHealth (int amount)
         {
-            
-            currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
-            if(amount < 0){
-                
-                animator.SetTrigger("hit");
+            if(block){
+                block = false;
+            }else{
+                currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+                if(amount < 0){
+                    
+                    animator.SetTrigger("hit");
+                }
             }
+            
             
         }
         public void ForceApply(int force, int forceUp){

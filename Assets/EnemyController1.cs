@@ -1,23 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Threading;
 using UnityEngine;
 
-public class Fueguito : MonoBehaviour
+public class FireEnemy : MonoBehaviour
 {
     [SerializeField]private float speed = 3f; // Velocidad de movimiento del enemigo
     [SerializeField]private float chaseSpeed = 5f;
     [SerializeField]private int health = 3; // Vida del enemigo
     private Rigidbody2D body;
     private Animator anim;
-    [SerializeField] private Transform player;
+    [SerializeField] private GameObject player;
     [SerializeField] private float detectionRadius = 10f;
-
-    private bool push = false;
     private int direction = 1; // Dirección inicial del enemigo (1: derecha, -1: izquierda)
     void Awake(){
         body = GetComponent<Rigidbody2D>();
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.FindGameObjectWithTag("Player");
         anim = GetComponent<Animator>();
     }
 
@@ -35,22 +32,19 @@ public class Fueguito : MonoBehaviour
             ChasePlayer();
         }
         else // Si no, realizar la patrulla normal
-        {   
-            
-            anim.SetBool("Chase",false);
-            
+        {
+            anim.SetTrigger("Roll");
             Patrol();
             
         }
-        
-        
+        anim.SetBool("Chasing",IsOnRadius());
     }
     void Patrol()
     {
-        
+        anim.SetBool("OnPatrol",true);
         transform.Translate(new Vector2(direction,0) * speed * Time.deltaTime);
         transform.localScale = new Vector3(-direction,1,1);
-        print(true);
+        
     }
     void ChangeDirection(){
         direction *= -1;
@@ -59,8 +53,8 @@ public class Fueguito : MonoBehaviour
     {
        
         
-        transform.position = Vector2.MoveTowards(transform.position, player.position, chaseSpeed * Time.deltaTime);
-        Vector3 direccion = player.position-transform.position;
+        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, chaseSpeed * Time.deltaTime);
+        Vector3 direccion = player.transform.position-transform.position;
         if (direccion.x > 0)
         {
             transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
@@ -77,7 +71,7 @@ public class Fueguito : MonoBehaviour
         if(player == null){
             return false;
         }else{
-            float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+            float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
             return distanceToPlayer <= detectionRadius;
         }
     }
@@ -92,18 +86,17 @@ public class Fueguito : MonoBehaviour
         if (other.CompareTag("Attack"))
         {
             // Restar vida al enemigo
-            ForceApply(8,0,-player.localScale.x);
-           
+            ForceApply(8,2,-player.transform.localScale.x);
+            anim.SetTrigger("hit");
             TakeDamage();
         }
         
     }
     void OnCollisionEnter2D(Collision2D other){
         if (other.gameObject.CompareTag("Player")){
-            anim.SetTrigger("Roll");
-            ForceApply(8,-4,-player.localScale.x);
-            ChasePlayer();
-            
+            ForceApply(8,2,-player.transform.localScale.x);
+            player.GetComponent<PlayerController>().ChangeHealth(-2);
+            TakeDamage();
         }else if(other.gameObject.CompareTag("Obstacle")){
             ChangeDirection();
         }
