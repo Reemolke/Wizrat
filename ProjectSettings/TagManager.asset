@@ -6,10 +6,11 @@ TagManager:
   tags:
   - Obstacle
   - Ground
-  - Gems
   - Attack
   - Enemy
   - Finishlane
+  - SwiftGem
+  - JumpGem
   layers:
   - Default
   - TransparentFX

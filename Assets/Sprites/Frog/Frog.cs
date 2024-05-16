@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FireEnemy : MonoBehaviour
+public class Frog : MonoBehaviour
 {
     [SerializeField]private float speed = 3f; // Velocidad de movimiento del enemigo
     [SerializeField]private float chaseSpeed = 5f;
     [SerializeField]private int health = 3; // Vida del enemigo
     private Rigidbody2D body;
+    private bool jumping;
     private Animator anim;
     [SerializeField] private GameObject player;
     [SerializeField] private float detectionRadius = 10f;
@@ -26,14 +27,14 @@ public class FireEnemy : MonoBehaviour
     {
         
         // Si el enemigo está en estado de persecución, perseguir al jugador
-        if (IsOnRadius())
-        {
-            anim.SetBool("Chase",true);
+        if (IsOnRadius() && jumping == false)
+        {   
+            anim.SetTrigger("Jump");
             ChasePlayer();
         }
         else // Si no, realizar la patrulla normal
         {
-            anim.SetTrigger("Roll");
+            
             
             
         }
@@ -41,7 +42,7 @@ public class FireEnemy : MonoBehaviour
     }
     void Patrol()
     {
-        anim.SetBool("OnPatrol",true);
+        
         transform.Translate(new Vector2(direction,0) * speed * Time.deltaTime);
         transform.localScale = new Vector3(-direction,1,1);
         
@@ -64,6 +65,8 @@ public class FireEnemy : MonoBehaviour
             transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         }
         
+        ForceApply(4,6,transform.localScale.x);
+        jumping = true;
         
         
     }
@@ -94,11 +97,11 @@ public class FireEnemy : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D other){
         if (other.gameObject.CompareTag("Player")){
-            ForceApply(8,2,-player.transform.localScale.x);
+            ForceApply(4,2,-player.transform.localScale.x);
             player.GetComponent<PlayerController>().ChangeHealth(-2);
             TakeDamage();
-        }else if(other.gameObject.CompareTag("Obstacle")){
-            ChangeDirection();
+        }else if(other.gameObject.CompareTag("Ground")){
+            jumping=false;
         }
     }
 

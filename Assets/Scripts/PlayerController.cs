@@ -97,6 +97,9 @@ using UnityEngine;
                     body.simulated = false;
                     boxCollider.enabled= false;
                 }
+            if(transform.position.y <-20){
+                Fall();
+            }
             shieldCooldownTimer += Time.deltaTime;
             animator.SetBool("Running",horizontalInput != 0);
             animator.SetBool("Grounded", grounded);
@@ -145,8 +148,10 @@ using UnityEngine;
 
         public void OnTriggerEnter2D(Collider2D other)
         {
-            if(other.gameObject.tag == "Gems"){
+            if(other.gameObject.tag == "SwiftGem"){
                 speed +=2;
+            }else if(other.gameObject.tag == "JumpGem"){
+                jumpPower +=2;
             }else if(other.gameObject.tag == "Enemy"){
                 ForceApply(6,6);
             }
@@ -184,6 +189,16 @@ using UnityEngine;
         }
         public void Die(){
             gameObject.SetActive(false);
+        }
+        public void Fall(){
+                ChangeHealth(-1);
+                if(currentHealth <= 0){
+
+                }else{
+                    transform.position = new Vector2(3,-3);
+                }
+                
+            
         }
 
     }
