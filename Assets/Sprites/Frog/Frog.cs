@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Frog : MonoBehaviour
 {
-    [SerializeField]private float speed = 3f; // Velocidad de movimiento del enemigo
+    
     [SerializeField]private float chaseSpeed = 5f;
     [SerializeField]private int health = 3; // Vida del enemigo
     private Rigidbody2D body;
@@ -12,7 +12,7 @@ public class Frog : MonoBehaviour
     private Animator anim;
     [SerializeField] private GameObject player;
     [SerializeField] private float detectionRadius = 10f;
-    private int direction = 1; // Dirección inicial del enemigo (1: derecha, -1: izquierda)
+    
     void Awake(){
         body = GetComponent<Rigidbody2D>();
         player = GameObject.FindGameObjectWithTag("Player");
@@ -32,11 +32,8 @@ public class Frog : MonoBehaviour
             anim.SetTrigger("Jump");
             ChasePlayer();
         }
-        else // Si no, realizar la patrulla normal
-        {
-            
-            
-            
+        if(transform.position.y < -20){
+            Die();
         }
         
     }
@@ -82,7 +79,7 @@ public class Frog : MonoBehaviour
         {
             // Restar vida al enemigo
             ForceApply(8,2,-player.transform.localScale.x);
-            anim.SetTrigger("hit");
+            anim.SetTrigger("Hurt");
             TakeDamage();
         }
         
@@ -106,9 +103,12 @@ public class Frog : MonoBehaviour
         if (health <= 0)
         {
             // Destruir el enemigo si se quedó sin vida
-            ScoreManager.scoreManager.raiseScore(10);
-            Destroy(gameObject);
+            Die();
         }
+    }
+    void Die(){
+        ScoreManager.scoreManager.raiseScore(10);
+        Destroy(gameObject);
     }
     public void ForceApply(int force, int forceUp,float dir){
 

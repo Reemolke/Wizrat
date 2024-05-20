@@ -11,7 +11,7 @@ using UnityEngine;
         [SerializeField] private LayerMask groundLayer;
         [SerializeField] private LayerMask obstacleLayer;
         [SerializeField] public int maxHealth = 5;
-        [SerializeField] int currentHealth;
+        [SerializeField] public int currentHealth;
         [SerializeField] float shieldCooldown = 10f;
         [SerializeField] float shieldCooldownTimer;
         private Animator animator;
@@ -163,6 +163,7 @@ using UnityEngine;
             body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * force,forceUp);
         }
         public void Die(){
+            LevelManager.instance.GameOver();
             gameObject.SetActive(false);
         }
         public void Fall(){

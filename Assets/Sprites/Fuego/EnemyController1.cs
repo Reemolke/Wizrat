@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyController : MonoBehaviour
+public class FireEnemy : MonoBehaviour
 {
     [SerializeField]private float speed = 3f; // Velocidad de movimiento del enemigo
     [SerializeField]private float chaseSpeed = 5f;
     [SerializeField]private int health = 3; // Vida del enemigo
     private Rigidbody2D body;
     private Animator anim;
+    [SerializeField] private int damage = 2;
     [SerializeField] private GameObject player;
     [SerializeField] private float detectionRadius = 10f;
     private int direction = 1; // Dirección inicial del enemigo (1: derecha, -1: izquierda)
@@ -28,16 +29,16 @@ public class EnemyController : MonoBehaviour
         // Si el enemigo está en estado de persecución, perseguir al jugador
         if (IsOnRadius())
         {
-            
+            anim.SetBool("Chase",true);
             ChasePlayer();
         }
         else // Si no, realizar la patrulla normal
         {
+            anim.SetTrigger("Roll");
             
-            Patrol();
             
         }
-        anim.SetBool("Chasing",IsOnRadius());
+        
     }
     void Patrol()
     {
@@ -87,7 +88,7 @@ public class EnemyController : MonoBehaviour
         {
             // Restar vida al enemigo
             ForceApply(8,2,-player.transform.localScale.x);
-            anim.SetTrigger("hit");
+            ScoreManager.scoreManager.raiseScore(5);
             TakeDamage();
         }
         
@@ -95,9 +96,8 @@ public class EnemyController : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other){
         if (other.gameObject.CompareTag("Player")){
             ForceApply(8,2,-player.transform.localScale.x);
-            player.GetComponent<PlayerController>().ChangeHealth(-1);
-
-            
+            player.GetComponent<PlayerController>().ChangeHealth(-damage);
+            TakeDamage();
         }else if(other.gameObject.CompareTag("Obstacle")){
             ChangeDirection();
         }
