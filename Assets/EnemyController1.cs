@@ -9,6 +9,7 @@ public class FireEnemy : MonoBehaviour
     [SerializeField]private int health = 3; // Vida del enemigo
     private Rigidbody2D body;
     private Animator anim;
+    [SerializeField] private int damage = 2;
     [SerializeField] private GameObject player;
     [SerializeField] private float detectionRadius = 10f;
     private int direction = 1; // Dirección inicial del enemigo (1: derecha, -1: izquierda)
@@ -95,7 +96,7 @@ public class FireEnemy : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other){
         if (other.gameObject.CompareTag("Player")){
             ForceApply(8,2,-player.transform.localScale.x);
-            player.GetComponent<PlayerController>().ChangeHealth(-2);
+            player.GetComponent<PlayerController>().ChangeHealth(-damage);
             TakeDamage();
         }else if(other.gameObject.CompareTag("Obstacle")){
             ChangeDirection();

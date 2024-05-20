@@ -20,10 +20,12 @@ public class CoinCollectible : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
+        if(other.gameObject.tag == "Player"){
+            ScoreManager.scoreManager.raiseScore(1);
+                
+            Destroy(gameObject);
+        }
         
-        ScoreManager.scoreManager.raiseScore(1);
-        
-        Destroy(gameObject);
         
         
 

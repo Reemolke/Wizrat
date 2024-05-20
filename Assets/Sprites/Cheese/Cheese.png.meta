@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e0c7ecd412172b64ba977119f2ad61bb
+guid: 6d5f4c1666aacaa4fb7df9f9c73fbc33
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,43 +110,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flag_0
+      name: Cheese_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 0
-        width: 26
-        height: 32
+        x: 8
+        y: 4
+        width: 23
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 758fd01873429e045993c4784bf3eb4a
-      internalID: -1815823535
+      spriteID: 4f62fb2373f1e0145902bfed1de541c9
+      internalID: -621822613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flag_1
+      name: Cheese_1
       rect:
         serializedVersion: 2
-        x: 38
-        y: 0
-        width: 26
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 40
+        y: 2
+        width: 23
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.565}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6564047ce828f5b4a8ba34767a846adc
-      internalID: 1855718645
+      spriteID: db551cfbe0fdd6046bcbad5ec92f415f
+      internalID: 58167909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cheese_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 4
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261cccd7fea37124c9667b480f0408c2
+      internalID: 2090030297
       vertices: []
       indices: 
       edges: []
@@ -162,8 +183,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      flag_0: -1815823535
-      flag_1: 1855718645
+      Cheese_0: -621822613
+      Cheese_1: 58167909
+      Cheese_2: 2090030297
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -38,18 +38,10 @@ public class Frog : MonoBehaviour
             
             
         }
-        anim.SetBool("Chasing",IsOnRadius());
-    }
-    void Patrol()
-    {
-        
-        transform.Translate(new Vector2(direction,0) * speed * Time.deltaTime);
-        transform.localScale = new Vector3(-direction,1,1);
         
     }
-    void ChangeDirection(){
-        direction *= -1;
-    }
+    
+    
     void ChasePlayer()
     {
        
@@ -58,14 +50,14 @@ public class Frog : MonoBehaviour
         Vector3 direccion = player.transform.position-transform.position;
         if (direccion.x > 0)
         {
-            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         }
         else if (direccion.x < 0)
         {
-            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         }
         
-        ForceApply(4,6,transform.localScale.x);
+        ForceApply(4,6,-transform.localScale.x);
         jumping = true;
         
         
@@ -114,6 +106,7 @@ public class Frog : MonoBehaviour
         if (health <= 0)
         {
             // Destruir el enemigo si se quedó sin vida
+            ScoreManager.scoreManager.raiseScore(10);
             Destroy(gameObject);
         }
     }

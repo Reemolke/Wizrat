@@ -30,32 +30,7 @@ using UnityEngine;
             currentHealth = maxHealth;
         }
         
-        /* private void FixedUpdate(){
-            Vector2 dir = Vector2.zero;
-            if (Input.GetKey(KeyCode.A))
-            {
-                dir.x = -1;
-                animator.SetFloat("Dir X", -1);
-                
-            }
-            else if (Input.GetKey(KeyCode.D))
-            {
-                dir.x = 1;
-                animator.SetFloat("Dir X", 1);
-                
-            }
-            Vector2 movement = new Vector2(dir.x, dir.y).normalized;
-            Vector2 position = transform.position;
-
-            // Ajustar la velocidad para que sea independiente del framerate
-            float speed = 4f;
-            position.x = position.x + speed * movement.x * Time.deltaTime;
-            position.y = position.y + speed * movement.y * Time.deltaTime;
-
-            transform.position = position;
-            animator.SetFloat("Speed", movement.magnitude);
-            animator.SetBool("Grounded",grounded);
-        } */
+    
 
         
         private void Update()
@@ -193,7 +168,7 @@ using UnityEngine;
         public void Fall(){
                 ChangeHealth(-1);
                 if(currentHealth <= 0){
-
+                    Die();
                 }else{
                     transform.position = new Vector2(3,-3);
                 }
