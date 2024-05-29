@@ -137,7 +137,7 @@ using UnityEngine;
                 jumpPower +=2;
             }else if(other.gameObject.tag == "Enemy"){
                 ForceApply(6,6);
-                player.GetComponent<PlayerController>().ChangeHealth(-1);
+                PlayDamageSound();
             }
         }
         private bool isGrounded(LayerMask mask){
