@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyController : MonoBehaviour
 {
@@ -113,7 +114,9 @@ public class EnemyController : MonoBehaviour
         {
             // Destruir el enemigo si se quedó sin vida
             ScoreManager.scoreManager.raiseScore(10);
-            Destroy(gameObject);
+            ScoreManager.scoreManager.sumScore();
+           Destroy(gameObject);
+           SceneManager.LoadScene("Main Menu");
         }
     }
     public void ForceApply(int force, int forceUp,float dir){

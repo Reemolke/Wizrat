@@ -6,6 +6,7 @@ public class ScoreManager : MonoBehaviour
 {
     // Start is called before the first frame update
     public static ScoreManager scoreManager;
+    public static int totalScore;
     int score = 0;
     public Text scoreText;
     void Start(){
@@ -14,5 +15,9 @@ public class ScoreManager : MonoBehaviour
     public void raiseScore(int points){
         score += points;
         scoreText.text = score.ToString();
+    }
+    public void sumScore(){
+        totalScore +=score;
+
     }
 }

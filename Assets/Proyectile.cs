@@ -11,12 +11,16 @@ public class Proyectile : MonoBehaviour
     private BoxCollider2D boxCollider;
     private bool hasRotated;
     private Quaternion initialRotation;
+    public AudioClip slash;
+    public AudioClip damage;
+    public AudioSource audioSource;
     // Start is called before the first frame update
     void Awake()
     {
       anim = GetComponent<Animator>();
       boxCollider = GetComponent<BoxCollider2D>();  
       initialRotation = transform.rotation;
+      audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -31,6 +35,7 @@ public class Proyectile : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision){
         hit = true;
         boxCollider.enabled = false;
+        PlayDamage();
         
     }
     public void SetDirection(float direction){
@@ -52,6 +57,7 @@ public class Proyectile : MonoBehaviour
         transform.rotation = initialRotation;
     }
     private void Rotate(){
+        PlaySlash();
         if(transform.localScale == Vector3.one){
             
             transform.Rotate(0, 0, -45);
@@ -61,4 +67,17 @@ public class Proyectile : MonoBehaviour
         
         
     }
+    public void PlaySlash(){
+        PlaySound(slash);
+    }
+    public void PlayDamage(){
+        PlaySound(damage);
+    }
+    private void PlaySound(AudioClip clip)
+        {
+            if (clip != null)
+            {
+                audioSource.PlayOneShot(clip);
+            }
+        }
 }

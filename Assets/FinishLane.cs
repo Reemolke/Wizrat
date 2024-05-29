@@ -19,6 +19,7 @@ public class FinishLane : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other){
         if(other.gameObject.tag =="Player"){
             SceneManager.LoadScene("Wizrat");
+            ScoreManager.scoreManager.sumScore();
         }
     }
 }

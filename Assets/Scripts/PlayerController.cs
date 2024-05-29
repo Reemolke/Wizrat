@@ -21,6 +21,11 @@ using UnityEngine;
         private bool block;
         public bool grounded;
         public float horizontalInput;
+        private AudioSource audioSource;
+
+        
+        public AudioClip jumpSound;
+        public AudioClip damageSound;
         private void Awake(){
             speed = 5f;
             shieldCooldownTimer =10f;
@@ -28,6 +33,7 @@ using UnityEngine;
             animator = GetComponent<Animator>();
             boxCollider = GetComponent<BoxCollider2D>();
             currentHealth = maxHealth;
+            audioSource = GetComponent<AudioSource>();
         }
         
     
@@ -55,6 +61,7 @@ using UnityEngine;
                 }
                 if(Input.GetKeyDown(KeyCode.Space) && !block){
                     Jump();
+                    PlayJumpSound();
                 }
                 
             }else{
@@ -101,6 +108,7 @@ using UnityEngine;
                 }
                 walljumpCooldown = 0;
                 grounded = false;
+                
                 animator.SetTrigger("jump");
             }
             
@@ -116,7 +124,7 @@ using UnityEngine;
             if(collision.gameObject.tag == "Enemy"){
                 
                 ForceApply(10,4);
-                
+                PlayDamageSound();
             
             }
         }
@@ -129,6 +137,7 @@ using UnityEngine;
                 jumpPower +=2;
             }else if(other.gameObject.tag == "Enemy"){
                 ForceApply(6,6);
+                player.GetComponent<PlayerController>().ChangeHealth(-1);
             }
         }
         private bool isGrounded(LayerMask mask){
@@ -175,6 +184,25 @@ using UnityEngine;
                 }
                 
             
+        }
+        
+
+        public void PlayJumpSound()
+        {
+            PlaySound(jumpSound);
+        }
+
+        public void PlayDamageSound()
+        {
+            PlaySound(damageSound);
+        }
+
+        private void PlaySound(AudioClip clip)
+        {
+            if (clip != null)
+            {
+                audioSource.PlayOneShot(clip);
+            }
         }
 
     }
