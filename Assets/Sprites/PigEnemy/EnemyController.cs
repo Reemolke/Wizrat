@@ -27,17 +27,25 @@ public class EnemyController : MonoBehaviour
     {
         
         // Si el enemigo está en estado de persecución, perseguir al jugador
-        if (IsOnRadius())
+        if (IsOnRadius() && !PlayerController.idle)
         {
             
             ChasePlayer();
         }
-        else // Si no, realizar la patrulla normal
+        else if(!PlayerController.idle) // Si no, realizar la patrulla normal
         {
             
             Patrol();
             
         }
+        if(PlayerController.idle){
+            body.simulated = false;
+            anim.enabled = false;
+        }else{
+            body.simulated = true;
+            anim.enabled = true;
+        }
+
         anim.SetBool("Chasing",IsOnRadius());
     }
     void Patrol()
@@ -116,12 +124,14 @@ public class EnemyController : MonoBehaviour
             ScoreManager.scoreManager.raiseScore(10);
             ScoreManager.scoreManager.sumScore();
            Destroy(gameObject);
-           SceneManager.LoadScene("Main Menu");
+           GameObject.FindWithTag("Player").GetComponent<PlayerController>().Idle();
+           LevelManager.instance.Win(); 
         }
     }
     public void ForceApply(int force, int forceUp,float dir){
 
         body.velocity = new Vector2(-Mathf.Sign(dir) * force,forceUp);
     }
+    
 }
 

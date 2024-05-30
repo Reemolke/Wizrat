@@ -17,7 +17,9 @@ public class ScoreManager : MonoBehaviour
         scoreText.text = score.ToString();
     }
     public void sumScore(){
+        
         totalScore +=score;
 
     }
+    
 }

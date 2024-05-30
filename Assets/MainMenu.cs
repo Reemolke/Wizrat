@@ -1,4 +1,6 @@
 
+using TMPro;
+using TMPro.Examples;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -10,16 +12,19 @@ public class MainMenu : MonoBehaviour
 {
     GameObject startMenu;
     GameObject levelPicker;
-    Text text;
+
+    
+    public TextMeshProUGUI text;
     void Awake(){
         startMenu = GameObject.Find("StartMenu");
         levelPicker = GameObject.Find("LevelPicker");
         levelPicker.SetActive(false);
        
-        text=  GameObject.Find("Text").GetComponent<Text>();
+        
         
         
         text.text = ScoreManager.totalScore.ToString();
+        ScoreManager.totalScore = 0;
         
     }
     public void StartGame(){
@@ -30,5 +35,6 @@ public class MainMenu : MonoBehaviour
     }
     public void StartLevel(string levelName){
         SceneManager.LoadSceneAsync(levelName);
+        
     }
 }

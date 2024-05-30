@@ -12,6 +12,7 @@ public class FireEnemy : MonoBehaviour
     [SerializeField] private int damage = 2;
     [SerializeField] private GameObject player;
     [SerializeField] private float detectionRadius = 10f;
+    
     private int direction = 1; // Dirección inicial del enemigo (1: derecha, -1: izquierda)
     void Awake(){
         body = GetComponent<Rigidbody2D>();
@@ -27,7 +28,7 @@ public class FireEnemy : MonoBehaviour
     {
         
         // Si el enemigo está en estado de persecución, perseguir al jugador
-        if (IsOnRadius())
+        if (IsOnRadius() && !PlayerController.idle)
         {
             anim.SetBool("Chase",true);
             ChasePlayer();
@@ -38,6 +39,7 @@ public class FireEnemy : MonoBehaviour
             
             
         }
+       
         
     }
     void Patrol()

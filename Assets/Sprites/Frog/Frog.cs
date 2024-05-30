@@ -27,10 +27,18 @@ public class Frog : MonoBehaviour
     {
         
         // Si el enemigo está en estado de persecución, perseguir al jugador
-        if (IsOnRadius() && jumping == false)
+        if (IsOnRadius() && jumping == false && !PlayerController.idle)
         {   
+            body.simulated = true;
+            anim.enabled = true;
             anim.SetTrigger("Jump");
             ChasePlayer();
+        }else if(PlayerController.idle){
+            body.simulated = false;
+            anim.enabled = false;
+        }else{
+            body.simulated = true;
+            anim.enabled = true;
         }
         if(transform.position.y < -20){
             Die();

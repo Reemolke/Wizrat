@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -26,6 +27,7 @@ using UnityEngine;
         
         public AudioClip jumpSound;
         public AudioClip damageSound;
+        public static Boolean idle;
         private void Awake(){
             speed = 5f;
             shieldCooldownTimer =10f;
@@ -34,6 +36,9 @@ using UnityEngine;
             boxCollider = GetComponent<BoxCollider2D>();
             currentHealth = maxHealth;
             audioSource = GetComponent<AudioSource>();
+            body.simulated = true;
+            animator.enabled = true;
+            idle = false;
         }
         
     
@@ -42,15 +47,15 @@ using UnityEngine;
         private void Update()
         {
             horizontalInput = Input.GetAxis("Horizontal");
-
+            
             //Flip sprite
-            if(horizontalInput > 0.01f){
+            if(horizontalInput > 0.01f && !idle){
                 transform.localScale = Vector3.one;
-            }else if(horizontalInput < -0.01f){
+            }else if(horizontalInput < -0.01f && !idle){
                 transform.localScale = new Vector3(-1,1,1);
             }
 
-            if(walljumpCooldown > 0.2f && !block){
+            if(walljumpCooldown > 0.2f && !block && !idle){
                 body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
                 if(onWall() && !isGrounded(groundLayer)){
                     body.gravityScale = 0;
@@ -61,7 +66,7 @@ using UnityEngine;
                 }
                 if(Input.GetKeyDown(KeyCode.Space) && !block){
                     Jump();
-                    PlayJumpSound();
+                    
                 }
                 
             }else{
@@ -82,16 +87,23 @@ using UnityEngine;
             if(transform.position.y <-20){
                 Fall();
             }
+            if(Input.GetKeyUp(KeyCode.Escape)){
+                Menu();
+                
+                
+                
+            }
             shieldCooldownTimer += Time.deltaTime;
             animator.SetBool("Running",horizontalInput != 0);
             animator.SetBool("Grounded", grounded);
             animator.SetBool("shield",block);
             
         }
+        
         private void Jump(){
             
             if(isGrounded(groundLayer) || isGrounded(obstacleLayer)){
-                
+                PlayJumpSound();
                 body.velocity = new Vector2(body.velocity.x, jumpPower);
                 body.gravityScale = 1;
                     
@@ -100,6 +112,7 @@ using UnityEngine;
                 
                 
             }else if(onWall()){
+                PlayJumpSound();
                 if(horizontalInput == 0){
                     ForceApply(10,4);
                     transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x),transform.localScale.y,transform.localScale.z);
@@ -151,7 +164,13 @@ using UnityEngine;
         }
 
         public bool canAttack(){
-            return !onWall() && !block && horizontalInput ==0;
+            return !onWall() && !block && horizontalInput ==0 && grounded && !idle; 
+        }
+
+        public void Idle(){
+            idle = !idle;
+            body.simulated = !body.simulated;
+            animator.enabled = !animator.enabled;
         }
 
         public void ChangeHealth (int amount)
@@ -174,6 +193,7 @@ using UnityEngine;
         public void Die(){
             LevelManager.instance.GameOver();
             gameObject.SetActive(false);
+            
         }
         public void Fall(){
                 ChangeHealth(-1);
@@ -203,6 +223,11 @@ using UnityEngine;
             {
                 audioSource.PlayOneShot(clip);
             }
+        }
+        private void Menu(){
+            Idle();
+            LevelManager.instance.Menu();
+            
         }
 
     }
