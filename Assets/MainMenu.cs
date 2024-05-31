@@ -37,4 +37,8 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadSceneAsync(levelName);
         
     }
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }

@@ -197,6 +197,7 @@ using UnityEngine;
         }
         public void Fall(){
                 ChangeHealth(-1);
+                PlayDamageSound();
                 if(currentHealth <= 0){
                     Die();
                 }else{
