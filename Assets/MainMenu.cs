@@ -39,8 +39,14 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadSceneAsync(levelName);
         
     }
+<<<<<<< HEAD
     public void Back(){
         levelPicker.SetActive(false);
         startMenu.SetActive(true);
+=======
+    public void QuitGame()
+    {
+        Application.Quit();
+>>>>>>> ad9625a2423b5b227b3b7e27182660532cd375f3
     }
 }

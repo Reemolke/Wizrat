@@ -39,8 +39,17 @@ public class FireEnemy : MonoBehaviour
             
             
         }
-       
-        
+        if (PlayerController.idle)
+        {
+            body.simulated = false;
+            anim.enabled = false;
+        }
+        else
+        {
+            body.simulated = true;
+            anim.enabled = true;
+        }
+
     }
     void Patrol()
     {
