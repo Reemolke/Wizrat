@@ -12,14 +12,16 @@ public class MainMenu : MonoBehaviour
 {
     GameObject startMenu;
     GameObject levelPicker;
-
+    
+    
     
     public TextMeshProUGUI text;
     void Awake(){
         startMenu = GameObject.Find("StartMenu");
         levelPicker = GameObject.Find("LevelPicker");
+        
         levelPicker.SetActive(false);
-       
+        
         
         
         
@@ -36,5 +38,9 @@ public class MainMenu : MonoBehaviour
     public void StartLevel(string levelName){
         SceneManager.LoadSceneAsync(levelName);
         
+    }
+    public void Back(){
+        levelPicker.SetActive(false);
+        startMenu.SetActive(true);
     }
 }
