@@ -9272,6 +9272,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1029817186}
     m_Modifications:
+    - target: {fileID: 753441936025703530, guid: 6df1ce43030e01d4288acc0348ffe693, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1123842487301405182, guid: 6df1ce43030e01d4288acc0348ffe693, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -9283,6 +9287,34 @@ PrefabInstance:
     - target: {fileID: 1326506514949564756, guid: 6df1ce43030e01d4288acc0348ffe693, type: 3}
       propertyPath: m_Name
       value: MenuPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545598265150096401, guid: 6df1ce43030e01d4288acc0348ffe693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545598265150096401, guid: 6df1ce43030e01d4288acc0348ffe693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4591235131648089765}
+    - target: {fileID: 3545598265150096401, guid: 6df1ce43030e01d4288acc0348ffe693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeSceneByName
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545598265150096401, guid: 6df1ce43030e01d4288acc0348ffe693, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StateManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4399741302849068201, guid: 6df1ce43030e01d4288acc0348ffe693, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4502331793117181007, guid: 6df1ce43030e01d4288acc0348ffe693, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4591235131648089767}
+    - target: {fileID: 4502331793117181007, guid: 6df1ce43030e01d4288acc0348ffe693, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Changeslider
       objectReference: {fileID: 0}
     - target: {fileID: 5252529353039036887, guid: 6df1ce43030e01d4288acc0348ffe693, type: 3}
       propertyPath: m_Pivot.x
@@ -9383,6 +9415,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1326506514949564756, guid: 6df1ce43030e01d4288acc0348ffe693, type: 3}
   m_PrefabInstance: {fileID: 1869592601}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1869592604 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4502331793117181007, guid: 6df1ce43030e01d4288acc0348ffe693, type: 3}
+  m_PrefabInstance: {fileID: 1869592601}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1950415473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10011,6 +10054,10 @@ PrefabInstance:
       propertyPath: texto
       value: 
       objectReference: {fileID: 698962807}
+    - target: {fileID: 6231827198409899730, guid: b51f3f5dc05540f4782bd015f15b51ea, type: 3}
+      propertyPath: slider
+      value: 
+      objectReference: {fileID: 1869592604}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10032,6 +10079,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 164354917821565483, guid: b51f3f5dc05540f4782bd015f15b51ea, type: 3}
   m_PrefabInstance: {fileID: 4591235131648089764}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4591235131648089767 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6231827198409899730, guid: b51f3f5dc05540f4782bd015f15b51ea, type: 3}
+  m_PrefabInstance: {fileID: 4591235131648089764}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4591235131648089766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f7af43d1f6db44baa967a40e56e254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
