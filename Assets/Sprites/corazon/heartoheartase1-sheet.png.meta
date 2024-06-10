@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6d9add93edd6fe54ead3950c8682bc5e
+guid: 5b96f03cdcfddbd42805dc1d617e93b2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -110,7 +110,7 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: heartoheartase_0
+      name: heartoheartase1-sheet_0
       rect:
         serializedVersion: 2
         x: 7
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 973ca88260c0442469bfb007d090eac4
-      internalID: -1749116016
+      spriteID: 2a36b35d5c444ce47ba4092e94ebd9d8
+      internalID: -1027811139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: heartoheartase_1
+      name: heartoheartase1-sheet_1
       rect:
         serializedVersion: 2
         x: 39
@@ -158,29 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03af9a7a38c03614fb1de6b6b64ab221
-      internalID: -1293557213
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: heartoheartase_2
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 4
-        width: 10
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1697399ff1db0e41abdbfaeec006e20
-      internalID: 1930249616
+      spriteID: 6546805ca8eda6e4dbbf6077d9b811af
+      internalID: -1856505800
       vertices: []
       indices: 
       edges: []
@@ -196,9 +175,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      heartoheartase_0: -1749116016
-      heartoheartase_1: -1293557213
-      heartoheartase_2: 1930249616
+      heartoheartase1-sheet_0: -1027811139
+      heartoheartase1-sheet_1: -1856505800
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

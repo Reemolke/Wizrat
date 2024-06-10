@@ -1706,8 +1706,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1730,7 +1730,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -3278,6 +3278,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5025462561478143711, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 668099458}
+    - target: {fileID: 5025462561478143711, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Changeslider
+      objectReference: {fileID: 0}
     - target: {fileID: 5051193133916421474, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -3293,6 +3301,14 @@ PrefabInstance:
     - target: {fileID: 5051193133916421474, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5400105870956486273, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 668099456}
+    - target: {fileID: 5400105870956486273, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeSceneByName
       objectReference: {fileID: 0}
     - target: {fileID: 5770741911145556672, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
       propertyPath: m_Color.b
@@ -3394,6 +3410,8 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 2927993656818927605, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
     - {fileID: 1655288830705915019, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
+    - {fileID: 3822845529165908307, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
+    - {fileID: 7614966699876479940, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4094816909591200529, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
       insertIndex: -1
