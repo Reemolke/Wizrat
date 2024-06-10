@@ -3,9 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 
-    public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour
     {
         [SerializeField] private float speed;
         [SerializeField] private float jumpPower;
@@ -24,13 +25,13 @@ using UnityEngine;
         public float horizontalInput;
         private AudioSource audioSource;
 
-        
+        public Image shield;        
         public AudioClip jumpSound;
         public AudioClip damageSound;
         public static Boolean idle;
         private void Awake(){
             speed = 5f;
-            shieldCooldownTimer =10f;
+            shieldCooldownTimer =1f;
             body = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
             boxCollider = GetComponent<BoxCollider2D>();
@@ -39,6 +40,7 @@ using UnityEngine;
             body.simulated = true;
             animator.enabled = true;
             idle = false;
+            shieldCooldown = 10;
         }
         
     
@@ -74,6 +76,7 @@ using UnityEngine;
             }
             if(Input.GetKeyDown(KeyCode.E) && block == false && isGrounded(groundLayer) && shieldCooldown < shieldCooldownTimer){
                 shieldCooldownTimer =0;
+                shieldCooldown = 10;
                 block = true;
             }else if(Input.GetKeyUp(KeyCode.E)){
                 
@@ -94,6 +97,7 @@ using UnityEngine;
                 
             }
             shieldCooldownTimer += Time.deltaTime;
+            shield.fillAmount = shieldCooldownTimer/shieldCooldown;
             animator.SetBool("Running",horizontalInput != 0);
             animator.SetBool("Grounded", grounded);
             animator.SetBool("shield",block);

@@ -197,6 +197,7 @@ MonoBehaviour:
   shieldCooldownTimer: 0
   grounded: 0
   horizontalInput: 0
+  shield: {fileID: 0}
   jumpSound: {fileID: 8300000, guid: 049decf3d7878ca41b875d6faadf7aae, type: 3}
   damageSound: {fileID: 8300000, guid: 9186fe92b1d4ef44490fd20519a1d9a7, type: 3}
 --- !u!111 &3304018384589009680
