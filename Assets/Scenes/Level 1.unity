@@ -512,6 +512,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 2860315410723693406, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100.30572
+      objectReference: {fileID: 0}
+    - target: {fileID: 2860315410723693406, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 101.03942
+      objectReference: {fileID: 0}
+    - target: {fileID: 2860315410723693406, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2860315410723693406, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.39
+      objectReference: {fileID: 0}
     - target: {fileID: 4094816909591200529, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
       propertyPath: m_Pivot.x
       value: 0
