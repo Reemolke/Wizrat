@@ -70,8 +70,9 @@ public class PlayerController : MonoBehaviour
                     Jump();
                     
                 }
-                
-            }else{
+            shieldCooldownTimer += Time.deltaTime;
+        }
+        else{
                 walljumpCooldown += Time.deltaTime;
             }
             if(Input.GetKeyDown(KeyCode.E) && block == false && isGrounded(groundLayer) && shieldCooldown < shieldCooldownTimer){
@@ -96,7 +97,8 @@ public class PlayerController : MonoBehaviour
                 
                 
             }
-            shieldCooldownTimer += Time.deltaTime;
+            
+            
             shield.fillAmount = shieldCooldownTimer/shieldCooldown;
             animator.SetBool("Running",horizontalInput != 0);
             animator.SetBool("Grounded", grounded);

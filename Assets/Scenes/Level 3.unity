@@ -9332,6 +9332,22 @@ PrefabInstance:
       propertyPath: m_Text
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5770741911145556672, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770741911145556672, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770741911145556672, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770741911145556672, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5864436028613502798, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -9358,7 +9374,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7346258655588252134, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7876821207719443524, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -9371,6 +9387,18 @@ PrefabInstance:
     - target: {fileID: 8444443245597019468, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
       propertyPath: m_Name
       value: RetryOutline
+      objectReference: {fileID: 0}
+    - target: {fileID: 8466262525167953445, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8466262525167953445, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8466262525167953445, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8711942587672737346, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
