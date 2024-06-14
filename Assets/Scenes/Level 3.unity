@@ -9188,6 +9188,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 2860315410723693406, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 101.26101
+      objectReference: {fileID: 0}
+    - target: {fileID: 2860315410723693406, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 103.07031
+      objectReference: {fileID: 0}
+    - target: {fileID: 2860315410723693406, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 2860315410723693406, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.16
+      objectReference: {fileID: 0}
     - target: {fileID: 3509529112886235049, guid: f3885baf7a52302489d2e5c53ebb8f8c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
